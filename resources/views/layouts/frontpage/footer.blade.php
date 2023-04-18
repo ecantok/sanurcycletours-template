@@ -6,7 +6,7 @@
                 <div class="col-md-6">
                     <div class="mu-footer-left">
                         <p class="mu-copy-right">&copy; Copyright <a rel="nofollow"
-                                href="http://markups.io">markups.io</a>. All right reserved.</p>
+                                href="https://sanurcycletours.com">sanurcycletours.com</a>. All right reserved.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
