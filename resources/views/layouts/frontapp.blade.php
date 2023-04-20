@@ -17,11 +17,7 @@
     <a class="scrollToTop" href="#">
         <i class="fa fa-angle-up"></i>
     </a>
-<<<<<<< HEAD
     <a aria-label="Chat on WhatsApp" class="contact-button" href="https://wa.me/61437850029">
-=======
-    <a aria-label="Chat on WhatsApp" class="contact-button" href="#">
->>>>>>> 63c58fc52b78a044a26221056e5f998368fc07f4
         <i class="fa fa-whatsapp"></i>
     </a>
     <!-- END SCROLL TOP BUTTON -->
