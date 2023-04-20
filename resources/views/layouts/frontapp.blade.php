@@ -17,6 +17,9 @@
     <a class="scrollToTop" href="#">
         <i class="fa fa-angle-up"></i>
     </a>
+    <a aria-label="Chat on WhatsApp" class="contact-button" href="#">
+        <i class="fa fa-whatsapp"></i>
+    </a>
     <!-- END SCROLL TOP BUTTON -->
     
     @include('layouts.frontpage.header')
