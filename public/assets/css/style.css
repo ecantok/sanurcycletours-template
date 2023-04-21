@@ -194,7 +194,7 @@ iframe {
 /*scrol to top*/
 
 .scrollToTop {
-	bottom: 60px;
+	bottom: 90px;
 	color: #ffffff;
 	display: none;
 	font-size: 30px;
@@ -219,14 +219,14 @@ iframe {
 }
 
 .contact-button {
-	bottom: 60px;
+	bottom: 22px;
 	color: #ffffff;
 	display: inline;
 	font-size: 30px;
 	line-height: 50px;
 	position: fixed;
 	background-color: var(--color-theme);
-	right: 90px;
+	right: 20px;
 	text-align: center;
 	text-decoration: none;
 	width: 55px;
@@ -350,6 +350,11 @@ iframe {
 	width: 100vh;
 	height: 100vw;
 	object-fit: cover;
+}
+
+.carousel-item>img {
+	display: block;
+	width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -637,6 +642,11 @@ iframe {
 		inset: 0;
 		background: rgba(14, 29, 52, 0.8);
 		z-index: 9996;
+	}
+
+	#headerNavbar .logo img {
+		max-height: 40px;
+		margin-right: 6px;
 	}
 }
 
@@ -1495,6 +1505,13 @@ iframe {
 		margin-top: 15px;
 	}
 
+	.carousel-item>img {
+		display: block;
+		height: 350px;
+		width: auto;
+		object-fit: cover;
+	}
+
 }
 
 
@@ -1523,7 +1540,15 @@ iframe {
 		line-height: 43px;
 		width: 45px;
 		height: 45px;
+		right: 12px;
 		border-radius: 8px;
+	}
+
+	.carousel-item>img {
+		display: block;
+		height: 300px;
+		width: auto;
+		object-fit: cover;
 	}
 
 }

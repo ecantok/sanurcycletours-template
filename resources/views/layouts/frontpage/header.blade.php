@@ -54,19 +54,19 @@
                             <!-- Single item -->
                             <div class="carousel-item active">
                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
-                                    class="d-block w-100 zoom" alt="Sunset Over the City" />
+                                    class="zoom" alt="Sunset Over the City" />
                             </div>
 
                             <!-- Single item -->
                             <div class="carousel-item">
                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
-                                    class="d-block w-100 zoom" alt="Canyon at Nigh" />
+                                    class="zoom" alt="Canyon at Nigh" />
                             </div>
 
                             <!-- Single item -->
                             <div class="carousel-item">
                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
-                                    class="d-block w-100 zoom" alt="Cliff Above a Stormy Sea" />
+                                    class="zoom" alt="Cliff Above a Stormy Sea" />
                             </div>
                         </div>
                         <!-- Inner -->
@@ -103,19 +103,19 @@
                             <!-- Single item -->
                             <div class="carousel-item active" >
                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
-                                    class="d-block w-100 zoom" alt="Sunset Over the City" />
+                                    class="zoom" alt="Sunset Over the City" />
                             </div>
 
                             <!-- Single item -->
                             <div class="carousel-item" >
                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
-                                    class="d-block w-100 zoom" alt="Canyon at Nigh" />
+                                    class="zoom" alt="Canyon at Nigh" />
                             </div>
 
                             <!-- Single item -->
                             <div class="carousel-item" >
                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
-                                    class="d-block w-100 zoom" alt="Cliff Above a Stormy Sea" />
+                                    class="zoom" alt="Cliff Above a Stormy Sea" />
                             </div>
                         </div>
                         <!-- Inner -->
