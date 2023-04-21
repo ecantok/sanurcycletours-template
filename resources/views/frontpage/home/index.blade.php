@@ -230,7 +230,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="mu-testimonials-area">
-                        <h2>What Our Travelers Says</h2>
+                        <h2 style="position: relative">What Our Travelers Says</h2>
 
                         <div class="mu-testimonials-block">
                             <ul class="mu-testimonial-slide">

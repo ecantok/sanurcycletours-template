@@ -1,6 +1,6 @@
     <!-- Start Header -->
     <header class="d-flex flex-column">
-        <div id="mu-hero" class="w-100 pr-0 pl-0">
+        <div id="mu-hero" class="w-100 pr-0 pl-0 mb-4">
             <div class="mu-hero-area">
                 <div id="headerNavbar" class="mu-hero-top">
                     <!-- Start center Logo -->
@@ -98,7 +98,7 @@
                         </ol>
 
                         <!-- Inner -->
-                        <div class="carousel-inner carousel-header" style="height: 240px">
+                        <div class="carousel-inner" style="height: 240px">
 
                             <!-- Single item -->
                             <div class="carousel-item active" >
@@ -137,19 +137,21 @@
 
             </div>
         </div>
-        <div class="container main-text-mobile mt-4">
-            <div class="text-left">
-                <h1>
-                    Welcome To The Travel Agency </h1>
-                <h3>
-                    We Provide the best tours for you
-                </h3>
-                <p class="fs-4">Now Available exclusively for Lorem Ipsum</p>
+        @if (request()->routeIs('frontpage.home'))
+            <div class="container main-text-mobile">
+                <div class="text-left">
+                    <h1>
+                        Welcome To The Travel Agency </h1>
+                    <h3>
+                        We Provide the best tours for you
+                    </h3>
+                    <p class="fs-4">Now Available exclusively for Lorem Ipsum</p>
+                </div>
+                <div>
+                    <a href="#" class="mu-book-now-btn mt-2 big-transition fs-3"
+                        style="border: 1px solid #37b721;">Book Now!</a>
+                </div>
             </div>
-            <div>
-                <a href="#" class="mu-book-now-btn mt-2 big-transition fs-3"
-                    style="border: 1px solid #37b721;">Book Now!</a>
-            </div>
-        </div>
+        @endif
     </header>
     <!-- End Header -->

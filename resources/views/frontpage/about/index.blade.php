@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Start About -->
-    <section id="mu-about">
+    {{-- <section id="mu-about">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End About -->
     <section id="main-cont">
         <div class="container">

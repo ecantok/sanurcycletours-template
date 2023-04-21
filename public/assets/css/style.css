@@ -204,7 +204,7 @@ iframe {
 	text-align: center;
 	text-decoration: none;
 	width: 55px;
-	z-index: 999;
+	z-index: 81;
 	-webkit-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 	height: 55px;
@@ -230,7 +230,7 @@ iframe {
 	text-align: center;
 	text-decoration: none;
 	width: 55px;
-	z-index: 999;
+	z-index: 81;
 	height: 55px;
 	border-radius: 10px;
 }
@@ -343,13 +343,6 @@ iframe {
 .mu-scrolldown:hover,
 .mu-scrolldown:focus {
 	color: #fff;
-}
-
-.carousel-inner.carousel-header img {
-	position: absolute;
-	width: 100vh;
-	height: 100vw;
-	object-fit: cover;
 }
 
 .carousel-item>img {
