@@ -16,5 +16,9 @@
             <a href="{{ route('frontpage.bicycle') }}"
                 class="{{ request()->routeIs('frontpage.bicycle') ? 'active' : '' }} text-yellow text-shadow">Bicycle</a>
         </li>
+        <li>
+            <a href="{{ route('frontpage.gallery') }}"
+                class="{{ request()->routeIs('frontpage.gallery') ? 'active' : '' }} text-yellow text-shadow">Gallery</a>
+        </li>
     </ul>
 </nav>

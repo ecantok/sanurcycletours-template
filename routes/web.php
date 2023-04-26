@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Frontpage\AboutController;
 use App\Http\Controllers\Frontpage\BicycleController;
+use App\Http\Controllers\Frontpage\GalleryController;
 use App\Http\Controllers\Frontpage\TourController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
@@ -22,4 +23,5 @@ Route::name('frontpage.')->group(function () {
     Route::get('about', AboutController::class)->name('about');
     Route::get('tour', TourController::class)->name('tour');
     Route::get('bicycle', BicycleController::class)->name('bicycle');
+    Route::get('gallery', GalleryController::class)->name('gallery');
 });

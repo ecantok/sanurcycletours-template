@@ -14,14 +14,14 @@
 <!-- Main Style -->
 <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 
-<!-- Fonts -->
-
 <!-- Poppins For Title -->
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 <!-- AOS -->
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"
     integrity="sha384-/rJKQnzOkEo+daG0jMjU1IwwY9unxt1NBw3Ef2fmOJ3PW/TfAg2KXVoWwMZQZtw9" crossorigin="anonymous">
+
+<link rel="stylesheet" href="{{ asset('assets/css/lightbox.css') }}">
 
 <style>
     .carousel .carousel-control-prev-icon::after,
