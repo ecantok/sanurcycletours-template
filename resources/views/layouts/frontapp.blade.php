@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -11,23 +12,25 @@
     @include('layouts.frontpage.styles')
     {{-- @vite(['resources/js/app.js']) --}}
     @stack('style')
-  </head>
-  <body>
+</head>
+
+<body>
     <!--START SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#">
         <i class="fa fa-angle-up"></i>
     </a>
-    <a aria-label="Chat on WhatsApp" class="contact-button" href="https://wa.me/61437850029">
+    <a aria-label="Chat on WhatsApp" class="contact-button text-maroon" href="https://wa.me/61437850029">
         <i class="fa fa-whatsapp"></i>
     </a>
     <!-- END SCROLL TOP BUTTON -->
-    
+
     @include('layouts.frontpage.header')
     <main id="main">
-      @yield('content')
+        @yield('content')
     </main>
     @include('layouts.frontpage.footer')
     @include('layouts.frontpage.scripts')
     @stack('script')
-  </body>
+</body>
+
 </html>

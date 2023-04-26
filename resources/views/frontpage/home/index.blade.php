@@ -15,15 +15,16 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="mu-about-right">
-                                    <h2>About Our Agency</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam
-                                        distinctio magni enim error commodi suscipit nobis alias nulla, itaque ex,
-                                        vitae repellat amet neque est voluptatem iure maxime eius!</p>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus in
-                                        accusamus qui sequi nisi, sint magni, ipsam, porro nesciunt id veritatis
-                                        quaerat ipsum consequatur laborum, provident veniam quibusdam placeat quam?
+                                <div class="mu-about-right" style="background-color: #96181d">
+                                    <h2 class="text-yellow text-shadow">About Sanur Cycle Tours</h2>
+                                    <p class="text-yellow">
+                                        “Sanur Cycle Tours” is a100% locally owned and operated business based in central
+                                        Sanur and we would like to show you the real Sanur village & Bali with our 3 to 4
+                                        hour local tours as well as our longer & multi-day adventure cycling Tours. Join us
+                                        as we take you on a leisurely ride thru the village of Sanur introducing you to
+                                        village locals and the Balinese culture. Or allow us to share the real Bali & Nusa
+                                        Penida Island with you on our specialised Adventure rides! <a class="link"
+                                            href="{{ route('frontpage.about') }}">Read more...</a>
                                     </p>
                                 </div>
                             </div>
@@ -38,49 +39,36 @@
     <!-- End About -->
 
     <!-- Start Why Us -->
-    <section id="mu-why-us">
+    <section id="mu-why-us" class="bg-maroon-1">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="mu-why-us-area">
-                        <h2>Why Us?</h2>
-                        <div class="mu-why-us-content">
+                        <h2 class="text-yellow text-shadow">Why Us?</h2>
+                        <div class="mu-why-us-content bg-maroon-1">
                             <div class="row">
-                                <div class="col-md-4">
-                                    <div class="mu-why-us-single">
-                                        <div class="my-why-us-single-icon">
-                                            <i class="fa fa-bed" aria-hidden="true"></i>
-                                        </div>
-                                        <h3>Luxurious Hotels</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eum
-                                            corporis commodi, ipsum sequi quae nemo quasi voluptatibus quaerat
-                                            nulla! Doloribus cumque ipsum, tempore veritatis quibusdam quae numquam
-                                            minus iste!</p>
+                                <div class="col-md-12">
+                                    <div class="my-why-us-single-icon">
+                                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="mu-why-us-single">
-                                        <div class="my-why-us-single-icon">
-                                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                        </div>
-                                        <h3>The Best Service</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eum
-                                            corporis commodi, ipsum sequi quae nemo quasi voluptatibus quaerat
-                                            nulla! Doloribus cumque ipsum, tempore veritatis quibusdam quae numquam
-                                            minus iste!</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="mu-why-us-single">
-                                        <div class="my-why-us-single-icon">
-                                            <i class="fa fa-plane" aria-hidden="true"></i>
-                                        </div>
-                                        <h3>Unique Experience</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eum
-                                            corporis commodi, ipsum sequi quae nemo quasi voluptatibus quaerat
-                                            nulla! Doloribus cumque ipsum, tempore veritatis quibusdam quae numquam
-                                            minus iste!</p>
-                                    </div>
+                                    <h3 class="text-yellow">The Best Service</h3>
+                                    <p class="text-yellow">
+                                        “Sanur Cycle Tours “has been operating since 2012. We started with 1 local tour
+                                        of rural Sanur & now have 21 various cycling tours of both Bali & Nusa Penida
+                                        Island.
+                                        <br>
+                                        <br>
+                                        Since we started our genuine Bali cycling tours in 2012, we have only used
+                                        Balinese or Indonesian made products ie; Polygon Bikes”, “Toska cycling
+                                        jerseys”.(As can be seen with our special crew jerseys that support Poleng
+                                        sleeves & the local Frangipani flower). We also utilise Balinese run warungs &
+                                        accommodation houses” This makes us stand out from the big cycling companies!
+                                        <br>
+                                        <br>
+                                        So, we try to support the local Balinese businesses as much as we can. Which is
+                                        the reason that people visit Bali in the first place ( For the real Balinese
+                                        feel, their warmth & hospitality & for their unique culture).
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -97,8 +85,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="mu-video-area">
-                        <h2>Watch Our Recent Trip Video</h2>
-                        <p class="mu-title-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+                        <h2 class="text-yellow text-shadow">Watch Our Recent Trip Video</h2>
+                        <p class="mu-title-content text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Eum
                             impedit nostrum porro possimus nesciunt voluptate, id nam. Harum deserunt nobis esse
                             iste voluptatem cumque neque quo sunt velit. Nostrum, provident!</p>
 
@@ -117,13 +106,13 @@
     <!-- End Video -->
 
     <!-- Start Featured Tours -->
-    <section id="mu-featured-tours">
+    <section id="mu-featured-tours bg-maroon">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="mu-featured-tours-area">
-                        <h2>Our Featured Tours</h2>
-                        <p class="mu-title-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <h2 class="text-yellow text-shadow mt-4">Our Featured Tours</h2>
+                        <p class="mu-title-content text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Delectus, officia aut molestiae quod. Veritatis voluptas, possimus. Quae qui optio minus
                             dolorem fugit dolore, cum at, harum omnis sint? Saepe, asperiores.</p>
 
@@ -131,85 +120,94 @@
                         <div class="mu-featured-tours-content">
                             <div class="row">
 
-                                <div class="col-md-4">
-                                    <div class="mu-featured-tours-single">
+                                <div class="col-md-4 mb-3">
+                                    <div class="mu-featured-tours-single bg-maroon-1">
                                         <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
                                         <div class="mu-featured-tours-single-info">
-                                            <h3>Abu Dhabi</h3>
-                                            <h4> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag">$650</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem
+                                            <h3 class="text-yellow">Abu Dhabi</h3>
+                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
+                                            <span class="mu-price-tag text-yellow">$650</span>
+                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                At quidem
                                                 earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn">Book Now</a>
+                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
-                                    <div class="mu-featured-tours-single">
-                                        <img src="{{ asset('assets/images/thailand.jpg') }}" alt="img">
+                                <div class="col-md-4 mb-3">
+                                    <div class="mu-featured-tours-single bg-maroon-1">
+                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
                                         <div class="mu-featured-tours-single-info">
-                                            <h3>Thailand</h3>
-                                            <h4> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag">$845</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem
+                                            <h3 class="text-yellow">Abu Dhabi</h3>
+                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
+                                            <span class="mu-price-tag text-yellow">$650</span>
+                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                At quidem
                                                 earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn">Book Now</a>
+                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
-                                    <div class="mu-featured-tours-single">
-                                        <img src="{{ asset('assets/images/france.jpg') }}" alt="img">
+                                <div class="col-md-4 mb-3">
+                                    <div class="mu-featured-tours-single bg-maroon-1">
+                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
                                         <div class="mu-featured-tours-single-info">
-                                            <h3>France</h3>
-                                            <h4> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag">$450</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem
+                                            <h3 class="text-yellow">Abu Dhabi</h3>
+                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
+                                            <span class="mu-price-tag text-yellow">$650</span>
+                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                At quidem
                                                 earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn">Book Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="mu-featured-tours-single">
-                                        <img src="{{ asset('assets/images/switzerland.jpg') }}" alt="img">
-                                        <div class="mu-featured-tours-single-info">
-                                            <h3>Switzerland</h3>
-                                            <h4> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag">$1030</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem
-                                                earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn">Book Now</a>
+                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
-                                    <div class="mu-featured-tours-single">
-                                        <img src="{{ asset('assets/images/italy.jpg') }}" alt="img">
+                                <div class="col-md-4 mb-3">
+                                    <div class="mu-featured-tours-single bg-maroon-1">
+                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
                                         <div class="mu-featured-tours-single-info">
-                                            <h3>Italy</h3>
-                                            <h4> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag">$650</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem
+                                            <h3 class="text-yellow">Abu Dhabi</h3>
+                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
+                                            <span class="mu-price-tag text-yellow">$650</span>
+                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                At quidem
                                                 earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn">Book Now</a>
+                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
-                                    <div class="mu-featured-tours-single">
-                                        <img src="{{ asset('assets/images/england.jpg') }}" alt="img">
+                                <div class="col-md-4 mb-3">
+                                    <div class="mu-featured-tours-single bg-maroon-1">
+                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
                                         <div class="mu-featured-tours-single-info">
-                                            <h3>England</h3>
-                                            <h4> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag">$950</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem
+                                            <h3 class="text-yellow">Abu Dhabi</h3>
+                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
+                                            <span class="mu-price-tag text-yellow">$650</span>
+                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit.
+                                                At quidem
                                                 earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn">Book Now</a>
+                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="mu-featured-tours-single bg-maroon-1">
+                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
+                                        <div class="mu-featured-tours-single-info">
+                                            <h3 class="text-yellow">Abu Dhabi</h3>
+                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
+                                            <span class="mu-price-tag text-yellow">$650</span>
+                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit.
+                                                At quidem
+                                                earum sed. Sint, magnam eligendi!</p>
+                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -224,122 +222,15 @@
     </section>
     <!-- End Featured Tours -->
 
-    <!-- Start Client Testimonials -->
-    <section id="mu-testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mu-testimonials-area">
-                        <h2 style="position: relative">What Our Travelers Says</h2>
-
-                        <div class="mu-testimonials-block">
-                            <ul class="mu-testimonial-slide">
-
-                                <li>
-                                    <i class="fa fa-quote-left mu-client-quote" aria-hidden="true"></i>
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever."</p>
-                                    <img class="mu-rt-img" src="{{ asset('assets/images/traveler-1.jpg') }}"
-                                        alt="img">
-                                    <h5 class="mu-rt-name"> - Alice Boga</h5>
-                                    <span class="mu-rt-title">Zurich, Switzerland </span>
-                                </li>
-
-                                <li>
-                                    <i class="fa fa-quote-left mu-client-quote" aria-hidden="true"></i>
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever."</p>
-                                    <img class="mu-rt-img" src="{{ asset('assets/images/traveler-2.jpg') }}"
-                                        alt="img">
-                                    <h5 class="mu-rt-name"> - Jhon Doe</h5>
-                                    <span class="mu-rt-title">Pattaya., Thailand</span>
-                                </li>
-
-                                <li>
-                                    <i class="fa fa-quote-left mu-client-quote" aria-hidden="true"></i>
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever."</p>
-                                    <img class="mu-rt-img" src="{{ asset('assets/images/traveler-3.jpg') }}"
-                                        alt="img">
-                                    <h5 class="mu-rt-name"> - Jessica Doe</h5>
-                                    <span class="mu-rt-title">Bali, Indonesia</span>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Client Testimonials -->
-
-    <!-- Start Clients -->
-    <section id="mu-clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mu-clients-area">
-                        <h2>Our Awesome Clients</h2>
-
-                        <!-- Start Clients brand logo -->
-                        <div class="mu-clients-slider">
-
-                            <div class="mu-clients-single">
-                                <img src="{{ asset('assets/images/sponsor-logo-1.png') }}" alt="Brand Logo">
-                            </div>
-
-                            <div class="mu-clients-single">
-                                <img src="{{ asset('assets/images/sponsor-logo-2.png') }}" alt="Brand Logo">
-                            </div>
-
-                            <div class="mu-clients-single">
-                                <img src="{{ asset('assets/images/sponsor-logo-3.png') }}" alt="Brand Logo">
-                            </div>
-
-                            <div class="mu-clients-single">
-                                <img src="{{ asset('assets/images/sponsor-logo-4.png') }}" alt="Brand Logo">
-                            </div>
-
-                            <div class="mu-clients-single">
-                                <img src="{{ asset('assets/images/sponsor-logo-5.png') }}" alt="Brand Logo">
-                            </div>
-
-                            <div class="mu-clients-single">
-                                <img src="{{ asset('assets/images/sponsor-logo-6.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <!-- End Clients brand logo -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Clients -->
-
-    <!-- Start Call to Action -->
-    <section id="mu-callto-action">
-        <div class="container">
-            <div class="row col-md-12">
-                <div class="mu-callto-action-area">
-                    <h2>Explore the world by making journey with us</h2>
-                    <a class="mu-book-now-btn" href="#">Start Journey</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Start Call to Action -->
-
     <!-- Start Contact -->
-    <section id="mu-contact">
+    <section id="mu-contact bg-maroon">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="mu-contact-area">
-                        <h2>Contact Us</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        <h2 class="text-yellow text-shadow">Contact Us</h2>
+                        <p class="text-yellow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum
                             has been the industry's standard dummy text ever</p>
 
                         <!-- Start Contact Content -->
@@ -376,7 +267,7 @@
                                             <div class="form-group">
                                                 <textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
                                             </div>
-                                            <button type="submit" class="mu-send-msg-btn"><span>Send
+                                            <button type="submit" class="mu-send-msg-btn bg-maroon-1"><span>Send
                                                     Message</span></button>
                                         </form>
                                     </div>
@@ -397,8 +288,8 @@
     <div id="mu-google-map">
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8176744277202!2d-81.47150788457147!3d28.424757900613237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e378ec5a9a9%3A0x2feec9271ed22c5b!2sOrange+County+Convention+Center!5e0!3m2!1sen!2sbd!4v1503833952781" width="850" height="450" allowfullscreen></iframe> -->
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2788.9849115472457!2d115.23315677083276!3d-8.670589179280855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f51f1412a5%3A0xa7e549b0b86dc50e!2sLapangan%20Puputan%20Renon!5e0!3m2!1sid!2sid!4v1681191178920!5m2!1sid!2sid"
-            width="850" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435.2086552289873!2d115.25297091130547!3d-8.708602779937895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241c7a57e3203%3A0x33975af2565cd6bc!2sSanur%20Cycle%20Tours!5e0!3m2!1sid!2sid!4v1682311211439!5m2!1sid!2sid"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 

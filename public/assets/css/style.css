@@ -28,7 +28,8 @@ Version: 1.0
 	--color-default: #0a0d13;
 	--color-primary: #0d42ff;
 	--color-secondary: #0e1d34;
-	--color-theme: #37b721;
+	--color-theme: #ffe052;
+	--color-background: #7b0002;
 }
 
 
@@ -39,6 +40,7 @@ Version: 1.0
 body,
 html {
 	overflow-x: hidden;
+	background-color: #7b0002 !important;
 }
 
 ul {
@@ -50,6 +52,36 @@ a {
 	text-decoration: none;
 	color: #2f2f2f;
 }
+/* custom style */
+.text-yellow {
+	color: #ffe052 !important;
+}
+
+.text-maroon {
+	color: #7b0002 !important;
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.link:hover {
+	color: #ffe052 !important;
+}
+
+.btn-book:hover {
+	background-color: #7b0002 !important;
+}
+
+.bg-maroon {
+	background-color: #7b0002 !important;
+}
+
+.bg-maroon-1 {
+	background-color: #5b0102 !important;
+}
+
+/* end custom style */
 
 a:hover,
 a:focus {
@@ -141,7 +173,8 @@ dl dd {
 }
 
 blockquote {
-	background-color: #f8f8f8;
+	background-color: var(--color-background);
+	/* background-color: #f8f8f8; */
 	border-radius: 0 4px 4px 0;
 	padding: 5px 15px;
 
@@ -180,7 +213,8 @@ iframe {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	width: 200px;
-	color: #fff;
+	border: 1px solid var(--color-theme);
+	color: var(--color-theme);
 	border-radius: 20px;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -188,19 +222,22 @@ iframe {
 
 .mu-send-msg-btn:hover,
 .mu-send-msg-btn:focus {
-	background-color: #fff;
+	background-color: var(--color-background);
+	color: var(--color-theme);
+	/* background-color: #fff; */
 }
 
 /*scrol to top*/
 
 .scrollToTop {
 	bottom: 90px;
-	color: #ffffff;
+	color: var(--color-background);
 	display: none;
 	font-size: 30px;
 	line-height: 50px;
 	position: fixed;
 	right: 20px;
+	background-color: var(--color-theme);
 	text-align: center;
 	text-decoration: none;
 	width: 55px;
@@ -360,11 +397,10 @@ iframe {
 }
 
 #headerNavbar.sticked {
-	background: #37b721;
+	background: #ffffff;
 	padding: 5px 0;
 	box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
-
 
 #headerNavbar .logo img {
 	max-height: 60px;
@@ -536,7 +572,7 @@ iframe {
 		inset: 0;
 		padding: 50px 0 10px 0;
 		margin: 0;
-		background: rgba(14, 29, 52, 0.9);
+		background: var(--color-background);
 		overflow-y: auto;
 		transition: 0.3s;
 		z-index: 9998;
@@ -688,8 +724,8 @@ iframe {
 
 .mu-book-now-btn {
 	display: inline-block;
-	border: 1px solid #fff;
-	background-color: #fff;
+	border: 1px solid var(--color-theme) !important;
+	background-color: var(--color-background);
 	text-transform: uppercase;
 	font-size: 18px;
 	padding: 10px 20px;
@@ -703,7 +739,8 @@ iframe {
 
 
 #mu-about {
-	background-color: #fff;
+	/* background-color: #fff; */
+	background-color: var(--color-background);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -778,6 +815,7 @@ iframe {
 	border: 1px solid #ccc;
 	font-size: 30px;
 	display: inline-block;
+	color: var(--color-theme);
 	width: 85px;
 	height: 85px;
 	line-height: 85px;
@@ -811,7 +849,7 @@ iframe {
 	width: 100%;
 }
 
-#mu-video:after {
+/* #mu-video:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -820,6 +858,20 @@ iframe {
 	bottom: 0;
 	height: 100%;
 	opacity: 0.94;
+	width: 100%;
+	z-index: 10;
+} */
+
+#mu-video:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	background: rgb(150, 24, 29);
+	background: linear-gradient(90deg, rgba(150, 24, 29, 0.8) 100%, rgba(255, 224, 82, 0.8) 100%);
 	width: 100%;
 	z-index: 10;
 }
@@ -1174,24 +1226,24 @@ iframe {
 }
 
 .mu-contact-form .form-control::-webkit-input-placeholder {
-	color: #888;
+	color: var(--color-theme);
 	font-size: 15px;
 }
 
 .mu-contact-form .form-control:-moz-placeholder {
 	/* Firefox 18- */
-	color: #888;
+	color: var(--color-theme);
 	font-size: 15px;
 }
 
 .mu-contact-form .form-control::-moz-placeholder {
 	/* Firefox 19+ */
-	color: #888;
+	color: var(--color-theme);
 	font-size: 15px;
 }
 
 .mu-contact-form .form-control:-ms-input-placeholder {
-	color: #888;
+	color: var(--color-theme);
 	font-size: 15px;
 }
 
@@ -1275,7 +1327,7 @@ iframe {
 }
 
 .mu-social-media a {
-	border: 1px solid #19191a;
+	border: 1px solid var(--color-theme);
 	border-radius: 6px;
 	color: #19191a;
 	display: inline-block;
