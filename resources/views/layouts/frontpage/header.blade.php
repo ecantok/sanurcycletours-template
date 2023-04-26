@@ -10,7 +10,6 @@
                             <img src="{{ asset('assets/images/cycle-logo.jpg') }}" alt="logo">
                         </a>
                         {{-- <!-- Uncomment this code if you want to add the site name after site logo --> --}}
-                        {{-- <h1>{{ Site Name }}</h1> --}}
                         <i class="mobile-nav-toggle mobile-nav-show bi bi-list text-yellow text-shadow"></i>
                         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x text-yellow text-shadow"></i>
                         @include('layouts.frontpage.navbar')
@@ -37,16 +36,15 @@
                                 class="main-text d-flex justify-content-center align-items-center">
                                 <div class="text-center">
                                     <h1 data-aos="fade-right" data-aos-duration="800" class="text-yellow text-shadow">
-                                        Welcome To The Travel Agency </h1>
+                                        Welcome To Sanur Cycle Tours </h1>
                                     <h3 data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"
                                         class="text-yellow text-shadow">
                                         We Provide the best tours for you
                                     </h3>
                                     <p class="fs-4 text-yellow text-shadow" data-aos="fade-up" data-aos-duration="800"
-                                        data-aos-delay="1400" style="font-size: 1.5rem;">Now Available exclusively for
-                                        Lorem Ipsum</p>
+                                        data-aos-delay="1400" style="font-size: 1.5rem;">Your adventure cycling tours of
+                                        Sanur, Bali & Beyond.</p>
                                     <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1600">
-                                        <!-- <a href="#" class="mu-book-now-btn mt-4 big-transition fs-3">Book Now!</a> -->
                                         <a href="#"
                                             class="btn btn-outline-light mt-2 big-transition text-yellow text-shadow btn-book"
                                             style="font-size: 1.75rem;">Book Now</a>
