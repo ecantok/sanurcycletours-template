@@ -65,6 +65,12 @@
                                             For the adventurous and keen cyclists, choose one of our new Ubud tours. Where,
                                             you cycle from Sanur to Ubud via small, serviced roads and rice fields.
                                         </p>
+
+                                        <p>
+                                            For the real adventure seekers & Diehards of cycling Why not try our special
+                                            Jatiluwih rides or our multi-day tours of both Bali & Nusa Penida.
+                                            We promise you that we can show you the Bali that no one gets to see.
+                                        </p>
                                     @endif
                                 </div>
                             </div>
@@ -108,6 +114,11 @@
                         to Ubud via small, serviced roads and rice fields.
                     </p>
 
+                    <p class="text-yellow">
+                        For the real adventure seekers & Diehards of cycling Why not try our special
+                        Jatiluwih rides or our multi-day tours of both Bali & Nusa Penida.
+                        We promise you that we can show you the Bali that no one gets to see.
+                    </p>
                 </div>
             </div>
         </div>

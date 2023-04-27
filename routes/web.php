@@ -1,22 +1,13 @@
 <?php
 
+use App\Http\Controllers\Admin\Auth\LoginController;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Frontpage\TourController;
+use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Frontpage\AboutController;
 use App\Http\Controllers\Frontpage\BicycleController;
 use App\Http\Controllers\Frontpage\GalleryController;
-use App\Http\Controllers\Frontpage\TourController;
-use App\Http\Controllers\HomeController;
-use Illuminate\Support\Facades\Route;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
 Route::name('frontpage.')->group(function () {
     Route::get('/', HomeController::class)->name('home');
@@ -24,4 +15,10 @@ Route::name('frontpage.')->group(function () {
     Route::get('tour', TourController::class)->name('tour');
     Route::get('bicycle', BicycleController::class)->name('bicycle');
     Route::get('gallery', GalleryController::class)->name('gallery');
+});
+
+Route::get('login', [LoginController::class, 'index'])->name('login');
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], function () {
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 });

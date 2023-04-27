@@ -54,20 +54,8 @@
 
                             <!-- Single item -->
                             <div class="carousel-item active">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="zoom"
+                                <img src="{{ asset('assets/images/homepage.JPG') }}" class="zoom"
                                     alt="Sunset Over the City" />
-                            </div>
-
-                            <!-- Single item -->
-                            <div class="carousel-item">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="zoom"
-                                    alt="Canyon at Nigh" />
-                            </div>
-
-                            <!-- Single item -->
-                            <div class="carousel-item">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="zoom"
-                                    alt="Cliff Above a Stormy Sea" />
                             </div>
                         </div>
                         <!-- Inner -->
@@ -103,20 +91,8 @@
 
                             <!-- Single item -->
                             <div class="carousel-item active">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="zoom"
+                                <img src="{{ asset('assets/images/homepage.JPG') }}" class="zoom"
                                     alt="Sunset Over the City" />
-                            </div>
-
-                            <!-- Single item -->
-                            <div class="carousel-item">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="zoom"
-                                    alt="Canyon at Nigh" />
-                            </div>
-
-                            <!-- Single item -->
-                            <div class="carousel-item">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="zoom"
-                                    alt="Cliff Above a Stormy Sea" />
                             </div>
                         </div>
                         <!-- Inner -->

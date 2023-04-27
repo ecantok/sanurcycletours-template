@@ -111,7 +111,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="mu-featured-tours-area">
-                        <h2 class="text-yellow text-shadow mt-4">Our Featured Tours</h2>
+                        <h2 class="text-yellow text-shadow mt-4">Our New Tours</h2>
                         <p class="mu-title-content text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Delectus, officia aut molestiae quod. Veritatis voluptas, possimus. Quae qui optio minus
                             dolorem fugit dolore, cum at, harum omnis sint? Saepe, asperiores.</p>
