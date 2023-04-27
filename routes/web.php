@@ -1,13 +1,14 @@
 <?php
 
-use App\Http\Controllers\Admin\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Frontpage\TourController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Frontpage\AboutController;
+use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Frontpage\BicycleController;
 use App\Http\Controllers\Frontpage\GalleryController;
+use App\Http\Controllers\Frontpage\CertificationController;
 
 Route::name('frontpage.')->group(function () {
     Route::get('/', HomeController::class)->name('home');
@@ -15,6 +16,7 @@ Route::name('frontpage.')->group(function () {
     Route::get('tour', TourController::class)->name('tour');
     Route::get('bicycle', BicycleController::class)->name('bicycle');
     Route::get('gallery', GalleryController::class)->name('gallery');
+    Route::get('certification', CertificationController::class)->name('certification');
 });
 
 Route::get('login', [LoginController::class, 'index'])->name('login');

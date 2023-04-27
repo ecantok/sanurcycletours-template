@@ -21,7 +21,10 @@
                 class="{{ request()->routeIs('frontpage.gallery') ? 'active' : '' }} text-yellow text-shadow">Gallery</a>
         </li>
         <li>
-            <a href="" class="text-yellow text-shadow">Insurance & Certification</a>
+            <a href="{{ route('frontpage.certification') }}"
+                class="{{ request()->routeIs('frontpage.certification') ? 'active' : '' }} text-yellow text-shadow">Insurance
+                &
+                Certification</a>
         </li>
         <li>
             <a href="" class="text-yellow text-shadow">Testimonials</a>
