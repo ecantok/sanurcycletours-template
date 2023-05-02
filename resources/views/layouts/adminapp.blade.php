@@ -17,6 +17,8 @@
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
+    @stack('css')
+
     <!-- Custom styles for this template-->
     <link href="{{ asset('assets/css/sb-admin-2.css') }}" rel="stylesheet">
 
@@ -73,6 +75,8 @@
 
     <!-- Custom scripts for all pages-->
     <script src="{{ asset('assets/js/sb-admin-2.min.js') }}"></script>
+
+    @stack('js')
 </body>
 
 </html>

@@ -17,7 +17,7 @@ class LoginController extends Controller
         $credentials = $request->only('email', 'password');
 
         if (auth()->attempt($credentials)) {
-            return redirect()->route('admin.dashboard');
+            return redirect()->route('admin.tour.index');
         }
 
         return redirect()->back()->with('error', 'Email atau password salah');

@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Frontpage\TourController;
-use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Frontpage\AboutController;
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Frontpage\BicycleController;
@@ -25,5 +24,9 @@ Route::get('login', [LoginController::class, 'index'])->name('login');
 Route::post('login', [LoginController::class, 'auth'])->name('login.auth');
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], function () {
-    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/', fn () => redirect()->route('admin.tour.index'));
+
+    Route::get('tour', [\App\Http\Controllers\Admin\Tour\TourController::class, 'index'])->name('tour.index');
+    Route::get('tour/add', [\App\Http\Controllers\Admin\Tour\TourController::class, 'add'])->name('tour.add');
+    Route::post('tour/add', [\App\Http\Controllers\Admin\Tour\TourController::class, 'store'])->name('tour.store');
 });
