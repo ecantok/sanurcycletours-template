@@ -40,7 +40,13 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
-                                    <form class="user">
+                                    @if (session()->has('error'))
+                                        <div class="alert alert-danger" role="alert">
+                                            {{ session()->get('error') }}
+                                        </div>
+                                    @endif
+                                    <form class="user" action="{{ route('login.auth') }}" method="POST">
+                                        @csrf
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
@@ -57,9 +63,7 @@
                                                     Me</label>
                                             </div>
                                         </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                            Login
-                                        </a>
+                                        <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
                                         <hr>
                                     </form>
                                 </div>

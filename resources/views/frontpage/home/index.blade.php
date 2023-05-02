@@ -15,7 +15,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="mu-about-right" style="background-color: #96181d">
+                                <div class="mu-about-right bg-maroon">
                                     <h2 class="text-yellow text-shadow">About Sanur Cycle Tours</h2>
                                     <p class="text-yellow">
                                         “Sanur Cycle Tours” is a100% locally owned and operated business based in central

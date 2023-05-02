@@ -29,7 +29,7 @@ Version: 1.0
 	--color-primary: #0d42ff;
 	--color-secondary: #0e1d34;
 	--color-theme: #ffe052;
-	--color-background: #7b0002;
+	--color-background: #542c3a;
 }
 
 
@@ -40,7 +40,7 @@ Version: 1.0
 body,
 html {
 	overflow-x: hidden;
-	background-color: #7b0002 !important;
+	background-color: var(--color-background) !important;
 }
 
 ul {
@@ -58,7 +58,7 @@ a {
 }
 
 .text-maroon {
-	color: #7b0002 !important;
+	color: var(--color-background) !important;
 }
 
 .text-shadow {
@@ -74,11 +74,11 @@ a {
 }
 
 .btn-book:hover {
-	background-color: #7b0002 !important;
+	background-color: var(--color-background) !important;
 }
 
 .bg-maroon {
-	background-color: #7b0002 !important;
+	background-color: var(--color-background) !important;
 }
 
 .bg-maroon-1 {

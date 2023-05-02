@@ -27,7 +27,8 @@
                 Certification</a>
         </li>
         <li>
-            <a href="" class="text-yellow text-shadow">Testimonials</a>
+            <a href="{{ route('frontpage.testimonial') }}"
+                class="{{ request()->routeIs('frontpage.testimonial') ? 'active' : '' }} text-yellow text-shadow">Testimonials</a>
         </li>
     </ul>
 </nav>
