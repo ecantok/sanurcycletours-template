@@ -20,18 +20,22 @@
 
 
         <div class="row mt-3">
-            <div class="col-lg-4 mb-3">
-                <div class="card rounded-0">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the
-                            card's content.
-                        </p>
-                        <a href="#" class="card-link">Detail</a>
+            @foreach ($tours as $tour)
+                <div class="col-lg-4 mb-3">
+                    <div class="card rounded-0">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $tour->name }}</h5>
+                            <a href="{{ route('admin.tour.show', $tour->slug) }}" class="card-link btn btn-link">Detail</a>
+                            <a href="{{ route('admin.tour.update', $tour->slug) }}" class="card-link btn btn-link">Edit</a>
+                            <form class="d-inline" action="{{ route('admin.tour.delete', $tour->slug) }}" method="POST">
+                                @csrf
+                                @method('delete')
+                                <button class="card-link btn btn-link">Delete</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endforeach
         </div>
     </div>
 @endsection

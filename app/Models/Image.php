@@ -11,4 +11,9 @@ class Image extends Model
 
     protected $table = "images";
     protected $guarded = ['id'];
+
+    public function tour()
+    {
+        return $this->belongsTo(Tour::class, 'tour_id');
+    }
 }

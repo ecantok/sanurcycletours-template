@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers\Frontpage;
 
-use App\Http\Controllers\Controller;
+use App\Models\Tour;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class TourController extends Controller
 {
@@ -12,6 +13,12 @@ class TourController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('frontpage.tour.index');
+        $tours = Tour::all();
+        return view('frontpage.tour.index', compact('tours'));
+    }
+
+    public function detail(Tour $tour)
+    {
+        return view('frontpage.tour.detail', compact('tour'));
     }
 }

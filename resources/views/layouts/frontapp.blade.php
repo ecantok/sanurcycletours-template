@@ -10,8 +10,7 @@
     @include('layouts.frontpage.metatags')
 
     @include('layouts.frontpage.styles')
-    {{-- @vite(['resources/js/app.js']) --}}
-    @stack('style')
+    @stack('css')
 </head>
 
 <body>
@@ -30,7 +29,7 @@
     </main>
     @include('layouts.frontpage.footer')
     @include('layouts.frontpage.scripts')
-    @stack('script')
+    @stack('js')
 </body>
 
 </html>

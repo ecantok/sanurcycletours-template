@@ -119,99 +119,26 @@
                         <!-- Start Featured Tours content -->
                         <div class="mu-featured-tours-content">
                             <div class="row">
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="mu-featured-tours-single bg-maroon-1">
-                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                        <div class="mu-featured-tours-single-info">
-                                            <h3 class="text-yellow">Abu Dhabi</h3>
-                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag text-yellow">$650</span>
-                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                At quidem
-                                                earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
+                                @foreach ($tours as $tour)
+                                    <div class="col-md-4 mb-3">
+                                        <div class="mu-featured-tours-single bg-maroon-1">
+                                            @if (!blank($tour->images))
+                                                <img src="{{ asset($tour->images->first()->path) }}" alt="img"
+                                                    class="w-100 h-100" style="max-height: 300px; min-height: 300px;">
+                                            @else
+                                                <img src="{{ asset('assets/images/default-thumbnail.jpeg') }}"
+                                                    alt="img">
+                                            @endif
+                                            <div class="mu-featured-tours-single-info">
+                                                <h3 class="text-yellow">{{ title_filter($tour->name) }}</h3>
+                                                <div class="text-yellow">{!! str_limit($tour->content, 200) !!}</div>
+                                                <a href="{{ route('frontpage.tour.detail', $tour->slug) }}"
+                                                    class="float-start mu-book-now-btn text-yellow">Detail</a>
+                                                <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="mu-featured-tours-single bg-maroon-1">
-                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                        <div class="mu-featured-tours-single-info">
-                                            <h3 class="text-yellow">Abu Dhabi</h3>
-                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag text-yellow">$650</span>
-                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                At quidem
-                                                earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="mu-featured-tours-single bg-maroon-1">
-                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                        <div class="mu-featured-tours-single-info">
-                                            <h3 class="text-yellow">Abu Dhabi</h3>
-                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag text-yellow">$650</span>
-                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                At quidem
-                                                earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="mu-featured-tours-single bg-maroon-1">
-                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                        <div class="mu-featured-tours-single-info">
-                                            <h3 class="text-yellow">Abu Dhabi</h3>
-                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag text-yellow">$650</span>
-                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                At quidem
-                                                earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="mu-featured-tours-single bg-maroon-1">
-                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                        <div class="mu-featured-tours-single-info">
-                                            <h3 class="text-yellow">Abu Dhabi</h3>
-                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag text-yellow">$650</span>
-                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                elit.
-                                                At quidem
-                                                earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="mu-featured-tours-single bg-maroon-1">
-                                        <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                        <div class="mu-featured-tours-single-info">
-                                            <h3 class="text-yellow">Abu Dhabi</h3>
-                                            <h4 class="text-yellow"> 2 Days, 3 Nights</h4>
-                                            <span class="mu-price-tag text-yellow">$650</span>
-                                            <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                elit.
-                                                At quidem
-                                                earum sed. Sint, magnam eligendi!</p>
-                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                @endforeach
                             </div>
                         </div>
                         <!-- End Featured Tours content -->
@@ -240,8 +167,7 @@
                                 <div class="col-md-12">
                                     <div class="mu-contact-form-area">
                                         <div id="form-messages"></div>
-                                        <form id="ajax-contact" method="post" action="mailer.php"
-                                            class="mu-contact-form">
+                                        <form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
@@ -252,9 +178,8 @@
 
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control"
-                                                            placeholder="Enter Email" id="email" name="email"
-                                                            required>
+                                                        <input type="email" class="form-control" placeholder="Enter Email"
+                                                            id="email" name="email" required>
                                                     </div>
                                                 </div>
                                             </div>

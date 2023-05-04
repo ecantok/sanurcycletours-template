@@ -11,4 +11,14 @@ class Tour extends Model
 
     protected $table = 'tours';
     protected $guarded = ['id'];
+
+    protected $casts = [
+        'start' => 'datetime',
+        'pickup_time' => 'datetime',
+    ];
+
+    public function images()
+    {
+        return $this->hasMany(Image::class);
+    }
 }

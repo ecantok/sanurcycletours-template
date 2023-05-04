@@ -14,9 +14,10 @@ return new class extends Migration
         Schema::create('tours', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('slug');
             $table->longText('content');
-            $table->datetime('start')->nullable();
-            $table->datetime('pickup_time')->nullable();
+            $table->time('start')->nullable();
+            $table->time('pickup_time')->nullable();
             $table->string('pickup_localtion')->nullable();
             $table->integer('adult_price')->nullable();
             $table->integer('child_price')->nullable();

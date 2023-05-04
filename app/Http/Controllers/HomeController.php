@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Tour;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -11,6 +12,7 @@ class HomeController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('frontpage.home.index');
+        $tours = Tour::take(6)->get();
+        return view('frontpage.home.index', compact('tours'));
     }
 }
