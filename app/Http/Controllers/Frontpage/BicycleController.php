@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontpage;
 
 use App\Http\Controllers\Controller;
+use App\Models\Bicycle;
 use Illuminate\Http\Request;
 
 class BicycleController extends Controller
@@ -12,6 +13,8 @@ class BicycleController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('frontpage.bicycle.index');
+        $bicycles = Bicycle::all();
+
+        return view('frontpage.bicycle.index', compact('bicycles'));
     }
 }

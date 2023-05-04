@@ -1,5 +1,7 @@
 @extends('layouts.frontapp')
 
+@section('title', 'Tours')
+
 @section('content')
     <section id="main-cont" class="bg-maroon">
         <div class="container">
@@ -16,7 +18,8 @@
                                             <img src="{{ asset($tour->images->first()->path) }}" alt="img"
                                                 class="w-100 h-100" style="max-height: 300px; min-height: 300px;">
                                         @else
-                                            <img src="{{ asset('assets/images/default-thumbnail.jpeg') }}" alt="img">
+                                            <img src="{{ asset('assets/images/default-thumbnail.webp') }}" alt="img"
+                                                class="w-100 h-100" style="max-height: 300px; min-height: 300px;">
                                         @endif
                                         <div class="mu-featured-tours-single-info">
                                             <h3 class="text-yellow">{{ title_filter($tour->name) }}</h3>

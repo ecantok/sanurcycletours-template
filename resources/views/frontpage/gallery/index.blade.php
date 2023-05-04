@@ -1,5 +1,7 @@
 @extends('layouts.frontapp')
 
+@section('title', 'Gallery')
+
 @section('content')
     <section id="main-cont" class="bg-maroon">
         <div class="container">
@@ -23,142 +25,142 @@
                                 aria-labelledby="photo-gallery-tab">
                                 <div class="row mt-2">
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.jpg') }}" data-lightbox="image-1"
+                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
                                             data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>
@@ -170,7 +172,7 @@
                                 <div class="row mt-2">
                                     <div class="col-lg-4 mb-3">
                                         <a href="">
-                                            <img src="{{ asset('assets/images/dubai.jpg') }}" alt="video-thumbnail"
+                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="video-thumbnail"
                                                 class="img-responsive img-thumbnail">
                                         </a>
                                     </div>

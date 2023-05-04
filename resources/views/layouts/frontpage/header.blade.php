@@ -7,7 +7,7 @@
                     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                         <a class="logo" href="{{ route('frontpage.home') }}">
-                            <img src="{{ asset('assets/images/cycle-logo.jpg') }}" alt="logo">
+                            <img src="{{ asset('assets/images/cycle-logo.webp') }}" alt="logo">
                         </a>
                         {{-- <!-- Uncomment this code if you want to add the site name after site logo --> --}}
                         <i class="mobile-nav-toggle mobile-nav-show bi bi-list text-yellow text-shadow"></i>
@@ -54,7 +54,7 @@
 
                             <!-- Single item -->
                             <div class="carousel-item active">
-                                <img src="{{ asset('assets/images/homepage.JPG') }}" class="zoom"
+                                <img src="{{ asset('assets/images/homepage.webp') }}" class="zoom"
                                     alt="Sunset Over the City" />
                             </div>
                         </div>
@@ -91,8 +91,7 @@
 
                             <!-- Single item -->
                             <div class="carousel-item active">
-                                <img src="{{ asset('assets/images/homepage.JPG') }}" class="zoom"
-                                    alt="Sunset Over the City" />
+                                <img src="{{ asset('assets/images/homepage.webp') }}" alt="Sunset Over the City" />
                             </div>
                         </div>
                         <!-- Inner -->

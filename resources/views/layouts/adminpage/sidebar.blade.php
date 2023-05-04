@@ -17,9 +17,13 @@
             <i class="fas fa-fw fa-person-biking"></i>
             <span>Tours</span>
         </a>
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('admin.bicycle.index') }}">
             <i class="fas fa-fw fa-bicycle"></i>
             <span>Bicycle</span>
+        </a>
+        <a class="nav-link" href="{{ route('admin.bicycle.index') }}">
+            <i class="fas fa-fw fa-image"></i>
+            <span>Gallery</span>
         </a>
     </li>
 

@@ -1,5 +1,7 @@
 @extends('layouts.frontapp')
 
+@section('title', 'About Us')
+
 @section('content')
     <section id="main-cont" class="bg-maroon">
         <div class="container">
@@ -11,7 +13,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="mu-about-left">
-                                    <img class="" src="{{ asset('assets/images/lined-up-cycle.jpg') }}"
+                                    <img class="" src="{{ asset('assets/images/lined-up-cycle.webp') }}"
                                         alt="img">
                                 </div>
                             </div>

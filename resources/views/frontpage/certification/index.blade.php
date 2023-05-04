@@ -1,5 +1,7 @@
 @extends('layouts.frontapp')
 
+@section('title', 'Insurance & Certification')
+
 @section('content')
     <section id="main-cont" class="bg-maroon">
         <div class="container">
@@ -11,7 +13,7 @@
                         <div class="row">
                             <div class="col-lg-2 mb-3">
                                 <a href="https://www.worldnomads.com/" target="_blank">
-                                    <img src="{{ asset('assets/images/worldnomads-logo.jpg') }}" alt="worldnomads"
+                                    <img src="{{ asset('assets/images/worldnomads-logo.webp') }}" alt="worldnomads"
                                         class="w-100 img-responsive">
                                 </a>
                             </div>
@@ -36,6 +38,9 @@
                                                     bis_id="bn_ojmtjgzywykju1lyx969ot"></a> </div>
                                     </div>
                                 </div>
+                                <script
+                                    src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=632&amp;locationId=3949024&amp;lang=en_US&amp;year=2016&amp;display_version=2">
+                                </script>
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-sm-2 mb-3" bis_skin_checked="1">
@@ -58,6 +63,9 @@
                                                     bis_id="bn_axztj2pa5f04mpadw51uhs"></a> </div>
                                     </div>
                                 </div>
+                                <script
+                                    src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=632&amp;locationId=3949024&amp;lang=en_US&amp;year=2016&amp;display_version=2">
+                                </script>
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-sm-2 mb-3" bis_skin_checked="1">
@@ -80,6 +88,9 @@
                                                     bis_id="bn_ekfxzxjf11sv2jysko3abu"></a> </div>
                                     </div>
                                 </div>
+                                <script
+                                    src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=632&amp;locationId=3949024&amp;lang=en_US&amp;year=2016&amp;display_version=2">
+                                </script>
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-sm-2 mb-3" bis_skin_checked="1">
@@ -103,6 +114,9 @@
                                     </div>
                                 </div>
                             </div>
+                            <script
+                                src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=632&amp;locationId=3949024&amp;lang=en_US&amp;year=2016&amp;display_version=2">
+                            </script>
                         </div>
                         <!-- End Feature Content -->
                     </div>

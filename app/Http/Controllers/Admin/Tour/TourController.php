@@ -33,7 +33,7 @@ class TourController extends Controller
             'adult_price' => 'nullable|integer',
             'child_price' => 'nullable|integer',
             'infant_price' => 'nullable|integer',
-            'image.*' => 'nullable|file|image|mimes:jpeg,png,jpg|max:5120',
+            'image.*' => 'nullable|file|image|mimes:jpeg,png,jpg,webp|max:5120',
         ]);
 
         $validData['slug'] = Str::slug($validData['name']);
@@ -79,7 +79,7 @@ class TourController extends Controller
             'adult_price' => 'nullable|integer',
             'child_price' => 'nullable|integer',
             'infant_price' => 'nullable|integer',
-            'image.*' => 'nullable|file|image|mimes:jpeg,png,jpg|max:5120',
+            'image.*' => 'nullable|file|image|mimes:jpeg,png,jpg,webp|max:5120',
         ]);
 
         $validData['slug'] = Str::slug($validData['name']);

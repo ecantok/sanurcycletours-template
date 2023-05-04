@@ -1,5 +1,7 @@
 @extends('layouts.frontapp')
 
+@section('title', 'Testimonials')
+
 @section('content')
     <section id="main-cont" class="bg-maroon">
         <div class="container">

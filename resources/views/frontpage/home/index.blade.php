@@ -11,7 +11,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="mu-about-left">
-                                    <img class="" src="{{ asset('assets/images/about-us-img.jpeg') }}" alt="img">
+                                    <img class="" src="{{ asset('assets/images/about-us-img.webp') }}" alt="img">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -126,8 +126,9 @@
                                                 <img src="{{ asset($tour->images->first()->path) }}" alt="img"
                                                     class="w-100 h-100" style="max-height: 300px; min-height: 300px;">
                                             @else
-                                                <img src="{{ asset('assets/images/default-thumbnail.jpeg') }}"
-                                                    alt="img">
+                                                <img src="{{ asset('assets/images/default-thumbnail.webp') }}"
+                                                    alt="img" class="w-100 h-100"
+                                                    style="max-height: 300px; min-height: 300px;">
                                             @endif
                                             <div class="mu-featured-tours-single-info">
                                                 <h3 class="text-yellow">{{ title_filter($tour->name) }}</h3>
@@ -211,7 +212,6 @@
     <!-- Start Google Map -->
 
     <div id="mu-google-map">
-        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8176744277202!2d-81.47150788457147!3d28.424757900613237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e378ec5a9a9%3A0x2feec9271ed22c5b!2sOrange+County+Convention+Center!5e0!3m2!1sen!2sbd!4v1503833952781" width="850" height="450" allowfullscreen></iframe> -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435.2086552289873!2d115.25297091130547!3d-8.708602779937895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241c7a57e3203%3A0x33975af2565cd6bc!2sSanur%20Cycle%20Tours!5e0!3m2!1sid!2sid!4v1682311211439!5m2!1sid!2sid"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"

@@ -1,5 +1,7 @@
 @extends('layouts.frontapp')
 
+@section('title', title_filter($tour->name))
+
 @section('content')
     <section id="main-cont" class="bg-maroon">
         <div class="container">

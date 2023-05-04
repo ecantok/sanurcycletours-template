@@ -19,10 +19,10 @@ return new class extends Migration
             $table->time('start')->nullable();
             $table->time('pickup_time')->nullable();
             $table->string('pickup_localtion')->nullable();
-            $table->integer('adult_price')->nullable();
-            $table->integer('child_price')->nullable();
-            $table->integer('infant_price')->nullable();
-            $table->integer('status')->nullable();
+            $table->integer('adult_price')->nullable()->default(0);
+            $table->integer('child_price')->nullable()->default(0);
+            $table->integer('infant_price')->nullable()->default(0);
+            $table->integer('status')->nullable()->default(1);
             $table->timestamps();
         });
     }

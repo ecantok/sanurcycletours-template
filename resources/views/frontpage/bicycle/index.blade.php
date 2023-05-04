@@ -1,5 +1,7 @@
 @extends('layouts.frontapp')
 
+@section('title', 'Our Bicycle')
+
 @section('content')
     <section id="main-cont" class="bg-maroon">
         <div class="container">
@@ -9,96 +11,18 @@
                     <div class="mu-about-area">
                         <!-- Start Feature Content -->
                         <div class="row">
-                            <div class="col-md-4 mb-3">
-                                <div class="mu-featured-tours-single bg-maroon-1">
-                                    <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                    <div class="mu-featured-tours-single-info">
-                                        <h3 class="text-yellow">Abu Dhabi</h3>
-                                        <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At quidem
-                                            earum sed. Sint, magnam eligendi!</p>
+                            @foreach ($bicycles as $bicycle)
+                                <div class="col-md-4 mb-3">
+                                    <div class="mu-featured-tours-single bg-maroon-1">
+                                        <img src="{{ asset($bicycle->path) }}" alt="img" class="w-100 h-100"
+                                            style="max-height: 300px; min-height: 300px;">
+                                        <div class="mu-featured-tours-single-info">
+                                            <h3 class="text-yellow">{{ $bicycle->name }}</h3>
+                                            <p class="text-yellow">{{ $bicycle->description }}</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-md-4 mb-3">
-                                <div class="mu-featured-tours-single bg-maroon-1">
-                                    <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                    <div class="mu-featured-tours-single-info">
-                                        <h3 class="text-yellow">Abu Dhabi</h3>
-                                        <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At quidem
-                                            earum sed. Sint, magnam eligendi!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="mu-featured-tours-single bg-maroon-1">
-                                    <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                    <div class="mu-featured-tours-single-info">
-                                        <h3 class="text-yellow">Abu Dhabi</h3>
-                                        <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At quidem
-                                            earum sed. Sint, magnam eligendi!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="mu-featured-tours-single bg-maroon-1">
-                                    <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                    <div class="mu-featured-tours-single-info">
-                                        <h3 class="text-yellow">Abu Dhabi</h3>
-                                        <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At quidem
-                                            earum sed. Sint, magnam eligendi!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="mu-featured-tours-single bg-maroon-1">
-                                    <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                    <div class="mu-featured-tours-single-info">
-                                        <h3 class="text-yellow">Abu Dhabi</h3>
-                                        <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At quidem
-                                            earum sed. Sint, magnam eligendi!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="mu-featured-tours-single bg-maroon-1">
-                                    <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                    <div class="mu-featured-tours-single-info">
-                                        <h3 class="text-yellow">Abu Dhabi</h3>
-                                        <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At quidem
-                                            earum sed. Sint, magnam eligendi!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="mu-featured-tours-single bg-maroon-1">
-                                    <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                    <div class="mu-featured-tours-single-info">
-                                        <h3 class="text-yellow">Abu Dhabi</h3>
-                                        <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At quidem
-                                            earum sed. Sint, magnam eligendi!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="mu-featured-tours-single bg-maroon-1">
-                                    <img src="{{ asset('assets/images/dubai.jpg') }}" alt="img">
-                                    <div class="mu-featured-tours-single-info">
-                                        <h3 class="text-yellow">Abu Dhabi</h3>
-                                        <p class="text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            At quidem
-                                            earum sed. Sint, magnam eligendi!</p>
-                                    </div>
-                                </div>
-                            </div>
-
+                            @endforeach
                         </div>
                     </div>
                     <!-- End Feature Content -->

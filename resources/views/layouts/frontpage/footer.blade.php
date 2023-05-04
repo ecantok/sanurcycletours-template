@@ -25,22 +25,6 @@
                             </ul>
                         </div>
                     </div>
-                    {{-- <div class="mu-footer-left">
-                        <p class="mu-copy-right text-yellow">&copy; Copyright <a rel="nofollow" class="link"
-                                href="https://sanurcycletours.com">sanurcycletours.com</a>. All right reserved.</p>
-                    </div>
-                    <ul class="list-unstyled float-start mt-2 d-flex">
-                        <li class="fw-bold me-3">
-                            <a href="" class="text-yellow link"><i class="bi bi-chevron-right"></i>
-                                Privacy Policy
-                            </a>
-                        </li>
-                        <li class="fw-bold">
-                            <a href="" class="text-yellow link"><i class="bi bi-chevron-right"></i>
-                                Booking Conditions
-                            </a>
-                        </li>
-                    </ul> --}}
                 </div>
                 <div class="col-md-4">
                     <div class="mu-footer-right">

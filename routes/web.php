@@ -37,5 +37,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
     Route::patch('tour/{tour:slug}/edit', [\App\Http\Controllers\Admin\Tour\TourController::class, 'update'])->name('tour.update');
     Route::delete('tour/{tour:slug}/delete', [\App\Http\Controllers\Admin\Tour\TourController::class, 'delete'])->name('tour.delete');
 
+    Route::get('bicycle', [\App\Http\Controllers\Admin\Bicycle\BicycleController::class, 'index'])->name('bicycle.index');
+    Route::get('bicycle/add', [\App\Http\Controllers\Admin\Bicycle\BicycleController::class, 'add'])->name('bicycle.add');
+    Route::post('bicycle/add', [\App\Http\Controllers\Admin\Bicycle\BicycleController::class, 'store'])->name('bicycle.store');
+    Route::get('bicycle/{bicycle:slug}/edit', [\App\Http\Controllers\Admin\Bicycle\BicycleController::class, 'edit'])->name('bicycle.edit');
+    Route::patch('bicycle/{bicycle:slug}/edit', [\App\Http\Controllers\Admin\Bicycle\BicycleController::class, 'update'])->name('bicycle.update');
+    Route::delete('bicycle/{bicycle:slug}/delete', [\App\Http\Controllers\Admin\Bicycle\BicycleController::class, 'delete'])->name('bicycle.delete');
+
     Route::get('image/{image:id}/delete', [\App\Http\Controllers\Admin\Image\ImageController::class, 'delete'])->name('image.delete');
 });
