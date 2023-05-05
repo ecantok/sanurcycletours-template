@@ -10,7 +10,7 @@
 
                 <div class="content">
                     @if (!blank($tour->images))
-                        <div class="splide col-md-3 float-right" aria-label="Splide Basic HTML Example">
+                        <div class="splide col-md-3 float-right mr-3" aria-label="Splide Basic HTML Example">
                             <div class="splide__track">
                                 <ul class="splide__list">
                                     @foreach ($tour->images as $image)
