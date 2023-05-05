@@ -21,7 +21,7 @@
             <i class="fas fa-fw fa-bicycle"></i>
             <span>Bicycle</span>
         </a>
-        <a class="nav-link" href="{{ route('admin.bicycle.index') }}">
+        <a class="nav-link" href="{{ route('admin.gallery.index') }}">
             <i class="fas fa-fw fa-image"></i>
             <span>Gallery</span>
         </a>

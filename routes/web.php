@@ -44,5 +44,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
     Route::patch('bicycle/{bicycle:slug}/edit', [\App\Http\Controllers\Admin\Bicycle\BicycleController::class, 'update'])->name('bicycle.update');
     Route::delete('bicycle/{bicycle:slug}/delete', [\App\Http\Controllers\Admin\Bicycle\BicycleController::class, 'delete'])->name('bicycle.delete');
 
+    Route::get('gallery', [\App\Http\Controllers\Admin\Gallery\GalleryController::class, 'index'])->name('gallery.index');
+    Route::get('gallery/add', [\App\Http\Controllers\Admin\Gallery\GalleryController::class, 'add'])->name('gallery.add');
+    Route::post('gallery/add', [\App\Http\Controllers\Admin\Gallery\GalleryController::class, 'store'])->name('gallery.store');
+    Route::get('gallery/{gallery:id}/delete', [\App\Http\Controllers\Admin\Gallery\GalleryController::class, 'delete'])->name('gallery.delete');
+
     Route::get('image/{image:id}/delete', [\App\Http\Controllers\Admin\Image\ImageController::class, 'delete'])->name('image.delete');
 });
