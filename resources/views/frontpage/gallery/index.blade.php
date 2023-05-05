@@ -24,158 +24,29 @@
                             <div class="tab-pane fade show active" id="photo-gallery" role="tabpanel"
                                 aria-labelledby="photo-gallery-tab">
                                 <div class="row mt-2">
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-sm-6 mb-3">
-                                        <a href="{{ asset('assets/images/dubai.webp') }}" data-lightbox="image-1"
-                                            data-title="My caption">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
+                                    @foreach ($images as $image)
+                                        <div class="col-lg-2 col-sm-6 mb-3">
+                                            <a href="{{ asset($image->image) }}" data-lightbox="image-1"
+                                                data-title="Gallery Image">
+                                                <img src="{{ asset($image->image) }}" alt="thumbnail"
+                                                    class="img-responsive img-thumbnail">
+                                            </a>
+                                        </div>
+                                    @endforeach
                                 </div>
 
                             </div>
                             <div class="tab-pane fade" id="video-gallery" role="tabpanel"
                                 aria-labelledby="video-gallery-tab">
                                 <div class="row mt-2">
-                                    <div class="col-lg-4 mb-3">
-                                        <a href="">
-                                            <img src="{{ asset('assets/images/dubai.webp') }}" alt="video-thumbnail"
-                                                class="img-responsive img-thumbnail">
-                                        </a>
-                                    </div>
+                                    @foreach ($videos as $video)
+                                        <div class="col-lg-4 mb-3">
+                                            <a href="{{ $video->link }}" target="_blank">
+                                                <img src="{{ asset($video->image) }}" alt="video-thumbnail"
+                                                    class="img-responsive img-thumbnail">
+                                            </a>
+                                        </div>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>

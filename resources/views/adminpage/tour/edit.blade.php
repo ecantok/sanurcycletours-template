@@ -47,14 +47,14 @@
                             <div class="mb-3">
                                 <label for="start" class="form-label">Start Time</label>
                                 <input type="time" name="start" id="start" class="form-control"
-                                    value="{{ $tour->start->format('h:i:s') }}">
+                                    value="{{ $tour->start?->format('h:i:s') }}">
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="mb-3">
                                 <label for="pickup-time" class="form-label">Pickup Time</label>
                                 <input type="time" name="pickup_time" id="pickup-time" class="form-control"
-                                    value="{{ $tour->start->format('h:i:s') }}">
+                                    value="{{ $tour->start?->format('h:i:s') }}">
                             </div>
                         </div>
                         <div class="col-lg-6">

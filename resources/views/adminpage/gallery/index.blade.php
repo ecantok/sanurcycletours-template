@@ -42,7 +42,7 @@
         <div class="row mt-3">
             @foreach ($galleries as $gallery)
                 @if ($gallery->category == 'image')
-                    <div class="col-lg-3 position-relative mb-3">
+                    <div class="col-lg-2 position-relative mb-3">
                         <img src="{{ asset($gallery->image) }}" alt="thumbnail-video" class="img-fluid w-100">
                         <a href="{{ route('admin.gallery.delete', $gallery->id) }}"
                             class="position-absolute top-0 badge rounded-pill bg-danger " style="right: 12px;">
