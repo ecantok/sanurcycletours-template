@@ -29,6 +29,10 @@
 
                         {!! $tour->content !!}
                     </div>
+
+                    <a href="{{ route('frontpage.booking') }}" class="mu-book-now-btn text-yellow w-100 text-center mb-5">
+                        <b>Book Now</b>
+                    </a>
                 </div>
             </div>
         </div>

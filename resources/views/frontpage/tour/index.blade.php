@@ -26,7 +26,8 @@
                                             <div class="text-yellow">{!! str_limit($tour->content, 200) !!}</div>
                                             <a href="{{ route('frontpage.tour.detail', $tour->slug) }}"
                                                 class="float-start mu-book-now-btn text-yellow">Detail</a>
-                                            <a href="#" class="mu-book-now-btn text-yellow">Book Now</a>
+                                            <a href="{{ route('frontpage.booking') }}"
+                                                class="mu-book-now-btn text-yellow">Book Now</a>
                                         </div>
                                     </div>
                                 </div>

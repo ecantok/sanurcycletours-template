@@ -6,9 +6,10 @@ use App\Http\Controllers\Frontpage\TourController;
 use App\Http\Controllers\Frontpage\AboutController;
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Frontpage\BicycleController;
+use App\Http\Controllers\Frontpage\BookingController;
 use App\Http\Controllers\Frontpage\GalleryController;
-use App\Http\Controllers\Frontpage\CertificationController;
 use App\Http\Controllers\Frontpage\TestimonialController;
+use App\Http\Controllers\Frontpage\CertificationController;
 
 Route::name('frontpage.')->group(function () {
     Route::get('/', HomeController::class)->name('home');
@@ -21,6 +22,10 @@ Route::name('frontpage.')->group(function () {
     Route::get('gallery', GalleryController::class)->name('gallery');
     Route::get('certification', CertificationController::class)->name('certification');
     Route::get('testimonial', TestimonialController::class)->name('testimonial');
+    Route::get('booking', BookingController::class)->name('booking');
+
+    Route::post('form/validation', [BookingController::class, 'validation'])->name('form.validation');
+    Route::get('detail/billing', [BookingController::class, 'detail_billing'])->name('detail.billing');
 });
 
 Route::get('login', [LoginController::class, 'index'])->name('login');
