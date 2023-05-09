@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Frontpage\BicycleController;
 use App\Http\Controllers\Frontpage\BookingController;
 use App\Http\Controllers\Frontpage\GalleryController;
+use App\Http\Controllers\Frontpage\MidtransController;
 use App\Http\Controllers\Frontpage\TestimonialController;
 use App\Http\Controllers\Frontpage\CertificationController;
 
@@ -23,9 +24,14 @@ Route::name('frontpage.')->group(function () {
     Route::get('certification', CertificationController::class)->name('certification');
     Route::get('testimonial', TestimonialController::class)->name('testimonial');
     Route::get('booking', BookingController::class)->name('booking');
+    Route::post('tour/book', [BookingController::class, 'book'])->name('tour.book');
 
+    // ajax
     Route::post('form/validation', [BookingController::class, 'validation'])->name('form.validation');
     Route::get('detail/billing', [BookingController::class, 'detail_billing'])->name('detail.billing');
+    Route::post('form/billing/validation', [BookingController::class, 'validation_billing'])->name('form.billing.validation');
+
+    Route::post('generate/snap/token', [MidtransController::class, 'generate_snap_token'])->name('generate.snap.token');
 });
 
 Route::get('login', [LoginController::class, 'index'])->name('login');
