@@ -25,6 +25,7 @@ Route::name('frontpage.')->group(function () {
     Route::get('testimonial', TestimonialController::class)->name('testimonial');
     Route::get('booking', BookingController::class)->name('booking');
     Route::post('tour/book', [BookingController::class, 'book'])->name('tour.book');
+    Route::post('book/billing', [BookingController::class, 'billing'])->name('book.billing');
 
     // ajax
     Route::post('form/validation', [BookingController::class, 'validation'])->name('form.validation');

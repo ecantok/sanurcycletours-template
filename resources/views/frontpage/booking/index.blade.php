@@ -50,7 +50,7 @@
                         <div class="mb-3">
                             <label for="phone" class="form-label text-yellow">Phone Number<span
                                     class="text-danger">*</span></label>
-                            <input type="number"
+                            <input type="text"
                                 class="form-control bg-maroon text-yellow @error('phone') is-invalid @enderror"
                                 id="phone" name="phone" value="{{ old('phone') }}">
                             @error('phone')
@@ -227,7 +227,7 @@
                             aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-yellow">
-                        <form action="" method="post" id="billing-form">
+                        <form action="{{ route('frontpage.book.billing') }}" method="post" id="billing-form">
                             @csrf
 
                             <h3 class="text-center">Review Tour</h3>
@@ -302,7 +302,7 @@
                                     <div class="mb-3">
                                         <label for="billing-phone" class="form-label text-yellow">Phone<span
                                                 class="text-danger">*</span></label>
-                                        <input type="number" class="form-control bg-maroon text-yellow"
+                                        <input type="text" class="form-control bg-maroon text-yellow"
                                             id="billing-phone" name="billing_phone"
                                             value="{{ session('booking')->phone }}">
                                         <small class="text-danger billing_phone-error-feedback"></small>
@@ -381,6 +381,11 @@
                                 <li>If you are here in Bali, please make sure your roaming of your mobile phone is off to
                                     obtain the verification code</li>
                             </ul>
+
+                            <input type="hidden" id="snap-token" name="snap_token" value="">
+                            <input type="hidden" id="booking-id" name="booking_id"
+                                value="{{ session('booking')->id }}">
+                            <input type="hidden" id="payment-status" name="payment_status" value="">
                         </form>
                     </div>
 
@@ -406,7 +411,7 @@
 
             const myModalEl = document.getElementById('confirmationModal')
             myModalEl.addEventListener('hide.bs.modal', event => {
-                let confirmed = confirm('Are you sure? you want to cancel this booking?');
+                let confirmed = confirm('Are you sure? You want to cancel this booking?');
 
                 if (confirmed) {
                     return;
@@ -486,15 +491,34 @@
                                     booking_id: "{{ session('booking')?->id }}",
                                 },
                                 success: function(response) {
-                                    snap.pay(response, {
+                                    if ($('#snap-token').val().length == 0) {
+                                        $('#snap-token').val(response);
+                                    }
+
+                                    snap.pay($('#snap-token').val(), {
                                         onSuccess: function(result) {
-                                            console.log(result)
+                                            alert(
+                                                'Thank you for your payment'
+                                            );
+                                            $('#payment-status').val(
+                                                'success');
+                                            $('#billing-form').submit();
                                         },
                                         onPending: function(result) {
-                                            console.log(result)
+                                            alert(
+                                                'Thank you for your payment, we will process your payment as soon as possible'
+                                            );
+                                            $('#payment-status').val(
+                                                'pending');
+                                            $('#billing-form').submit();
                                         },
                                         onError: function(result) {
-                                            console.log(result)
+                                            alert(
+                                                'Sorry, your payment is failed, please try again'
+                                            );
+                                            $('#payment-status').val(
+                                                'failed');
+                                            $('#billing-form').submit();
                                         }
                                     });
                                 },
