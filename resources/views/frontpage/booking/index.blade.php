@@ -404,6 +404,17 @@
         $(document).ready(function() {
             $('#confirmationModal').modal('show');
 
+            const myModalEl = document.getElementById('confirmationModal')
+            myModalEl.addEventListener('hide.bs.modal', event => {
+                let confirmed = confirm('Are you sure? you want to cancel this booking?');
+
+                if (confirmed) {
+                    return;
+                } else {
+                    event.preventDefault();
+                }
+            });
+
             $('#billing-book-button').click(function() {
                 $.ajax({
                     url: "{{ route('frontpage.form.billing.validation') }}",
