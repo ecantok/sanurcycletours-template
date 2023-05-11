@@ -6,8 +6,10 @@ use Midtrans\Snap;
 use Midtrans\Config;
 use App\Models\Billing;
 use App\Models\Booking;
+use App\Mail\BookingMail;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class MidtransController extends Controller
 {
@@ -94,6 +96,8 @@ class MidtransController extends Controller
                 $this->notification_update($booking, $billing, $request);
             }
 
+            $this->send_email($transaction, $booking);
+
             return response()->json([
                 'response' => $request->all(),
                 'booking' => $booking,
@@ -118,5 +122,14 @@ class MidtransController extends Controller
         $billing->transaction_time = $response->transaction_time;
         $billing->fraud_status = $response->fraud_status;
         $billing->save();
+    }
+
+    protected function send_email($transaction, $booking)
+    {
+        if ($transaction == 'settlement') {
+            Mail::to('agus@baligatra.com')->send(new BookingMail($booking));
+        } else {
+            Mail::to('agus@baligatra.com')->send(new BookingMail($booking));
+        }
     }
 }
