@@ -66,9 +66,7 @@ class MidtransController extends Controller
         $server_key = config('midtrans.server_key');
 
         $transaction = $request->transaction_status;
-        $type = $request->payment_type;
         $order_id = $request->order_id;
-        $fraud = $request->fraud_status;
 
         $billing  = Billing::where('order_id', $order_id)->first();
         $booking = Booking::where('order_id', $order_id)->first();
@@ -76,25 +74,7 @@ class MidtransController extends Controller
         $hashed = hash('sha512', $order_id . $request->status_code . $request->gross_amount . $server_key);
 
         if ($hashed == $request->signature_key) {
-            if ($transaction == 'capture') {
-                if ($type == 'credit_card') {
-                    if ($fraud == 'challenge') {
-                        $this->notification_update($booking, $billing, $request);
-                    } else {
-                        $this->notification_update($booking, $billing, $request);
-                    }
-                }
-            } else if ($transaction == 'settlement') {
-                $this->notification_update($booking, $billing, $request);
-            } else if ($transaction == 'pending') {
-                $this->notification_update($booking, $billing, $request);
-            } else if ($transaction == 'deny') {
-                $this->notification_update($booking, $billing, $request);
-            } else if ($transaction == 'expire') {
-                $this->notification_update($booking, $billing, $request);
-            } else if ($transaction == 'cancel') {
-                $this->notification_update($booking, $billing, $request);
-            }
+            $this->notification_update($booking, $billing, $request);
 
             $this->send_email($transaction, $booking);
 
@@ -127,9 +107,12 @@ class MidtransController extends Controller
     protected function send_email($transaction, $booking)
     {
         if ($transaction == 'settlement') {
-            Mail::to('agus@baligatra.com')->send(new BookingMail($booking));
+            Mail::to('info@sanurcycletours.com', 'Info Sanur Cycle Tours')
+                ->cc('wayan@sanurcycletours.com', 'Sanur Cycle Tours')
+                ->bcc('agus@baligatra.com', 'Backup')
+                ->send(new BookingMail($booking));
         } else {
-            Mail::to('agus@baligatra.com')->send(new BookingMail($booking));
+            Mail::to('agus@baligatra.com', 'Backup')->send(new BookingMail($booking));
         }
     }
 }
