@@ -60,7 +60,7 @@
                                         data-aos-delay="1400" style="font-size: 1.5rem;">Your adventure cycling tours of
                                         Sanur, Bali & Beyond.</p>
                                     <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1600">
-                                        <a href="#"
+                                        <a href="{{ route('frontpage.booking') }}"
                                             class="btn btn-outline-light mt-2 big-transition text-yellow text-shadow btn-book"
                                             style="font-size: 1.75rem;">Book Now</a>
                                     </div>
@@ -139,7 +139,8 @@
                     <p class="fs-4 text-yellow text-shadow">Now Available exclusively for Lorem Ipsum</p>
                 </div>
                 <div>
-                    <a href="#" class="mu-book-now-btn mt-2 big-transition fs-3 btn-book text-yellow">Book
+                    <a href="{{ route('frontpage.booking') }}"
+                        class="mu-book-now-btn mt-2 big-transition fs-3 btn-book text-yellow">Book
                         Now!</a>
                 </div>
             </div>

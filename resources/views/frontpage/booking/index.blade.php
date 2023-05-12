@@ -402,7 +402,7 @@
 @endsection
 
 @push('js')
-    <script type="text/javascript" src="https://app.sandbox.midtrans.com/snap/snap.js"
+    <script type="text/javascript" src="{{ get_midtrans_snap_js() }}"
         data-client-key="{{ config('midtrans.client_key') }}"></script>
 
     <script>
@@ -498,7 +498,7 @@
                                     snap.pay($('#snap-token').val(), {
                                         onSuccess: function(result) {
                                             alert(
-                                                'Thank you for your payment'
+                                                'Thank you for your submission.'
                                             );
                                             $('#payment-status').val(
                                                 'success');
@@ -506,7 +506,7 @@
                                         },
                                         onPending: function(result) {
                                             alert(
-                                                'Thank you for your payment, we will process your payment as soon as possible'
+                                                'Thank you for your submission.'
                                             );
                                             $('#payment-status').val(
                                                 'pending');
