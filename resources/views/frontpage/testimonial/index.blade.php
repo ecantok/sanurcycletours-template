@@ -88,7 +88,181 @@
                             <div class="col-lg-12 mb-3">
                                 <div class="card bg-maroon">
                                     <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Sanur Cycle Tours, Best Bicycle Tours in Bali!!"
+                                        11 Apr 2023
+                                    </div>
+                                    <div class="card-body text-yellow">
+                                        <blockquote class="blockquote mb-0">
+                                            <p class="fs-6">
+                                                What an awesome way to see some of the back roads of Sanur and the beautiful
+                                                beach track. Our guide was absolutely fantastic and took extra care of us
+                                                travelling with our grandson who was 8. You guys rock.
+                                                <br>
+                                                <small>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </small>
+                                            </p>
+                                            <footer class="blockquote-footer">petejudemillar</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="card bg-maroon">
+                                    <div class="card-header text-yellow text-shadow fw-bold">
+                                        10 Feb 2023
+                                    </div>
+                                    <div class="card-body text-yellow">
+                                        <blockquote class="blockquote mb-0">
+                                            <p class="fs-6">
+                                                I had a great mid-morning cycling tour through Sanur with this company.
+                                                Communication and service was really good! Nice company! If you want to see
+                                                some places in/around Sanur, try a cycle tour with them :).
+                                                <br>
+                                                <small>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </small>
+                                            </p>
+                                            <footer class="blockquote-footer">karlienvn</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="card bg-maroon">
+                                    <div class="card-header text-yellow text-shadow fw-bold">
+                                        6 Mar 2023
+                                    </div>
+                                    <div class="card-body text-yellow">
+                                        <blockquote class="blockquote mb-0">
+                                            <p class="fs-6">
+                                                went on an early morning ride to watch the sunrise, then onto Jurassic Park
+                                                Tour with Widuri. She was a wonderful and caring guide . The tour fulfilled
+                                                all my expectations.
+                                                <br>
+                                                <small>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </small>
+                                            </p>
+                                            <footer class="blockquote-footer">janette3220</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="card bg-maroon">
+                                    <div class="card-header text-yellow text-shadow fw-bold">
+                                        14 Dec 2022
+                                    </div>
+                                    <div class="card-body text-yellow">
+                                        <blockquote class="blockquote mb-0">
+                                            <p class="fs-6">
+                                                We did the Sunrise tour with Wayan yesterday, it was very exciting and fun.
+                                                We picked up at 5.40, went to the shop to get the bike, and start cycling.
+                                                The beach looks amazing in the morning. We ride a beautiful path along the
+                                                beach, with nice restaurants at the other side... Padi fields and local
+                                                market... and stop by at sea turtle conservation. The tour really gives you
+                                                a different perspective to enjoy Sanur.
+                                                <br>
+                                                <small>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </small>
+                                            </p>
+                                            <footer class="blockquote-footer">marthawidhyanto</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="card bg-maroon">
+                                    <div class="card-header text-yellow text-shadow fw-bold">
+                                        29 Oct 2022
+                                    </div>
+                                    <div class="card-body text-yellow">
+                                        <blockquote class="blockquote mb-0">
+                                            <p class="fs-6">
+                                                I did the Jurassic Park ride with Annie and Wayan last week. Picked up on
+                                                time at 5.45am and taken to their shop starting point. Nice, excellent
+                                                condition bikes which were very easy to ride with a handy little basket! We
+                                                rode up the beach path to the old festival park. I was fortunate to visit
+                                                the park as a child as it opened in 1997. Had ample time to wander around.
+                                                At times the path was quite slippery ( due to moss/ wet/ jungle growth on
+                                                the old mosaics/ pavement around) Ensure you wear a lot of insect Repellent-
+                                                there are a huge amount of mosquito's about. From there we crossed the
+                                                bypass to cycle through Sanur and over to the rice paddies, where we stopped
+                                                for a light breakfast. Then rode back to the starting point. I was checked
+                                                in with frequently to ensure I was going ok and the pace suitable. It is
+                                                quite flat overall, so a very enjoyable ride. Annie and Wayan were very
+                                                friendly and informative and made for a very enjoyable morning
+                                                <br>
+                                                <small>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </small>
+                                            </p>
+                                            <footer class="blockquote-footer">Cassandra3186</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="card bg-maroon">
+                                    <div class="card-header text-yellow text-shadow fw-bold">
+                                        19 Sep 2022
+                                    </div>
+                                    <div class="card-body text-yellow">
+                                        <blockquote class="blockquote mb-0">
+                                            <p class="fs-6">
+                                                My wife and I loved the morning tour we did today - picked up on time at our
+                                                hotel at 06:30 and we were off cycling before 7 (good to be out early to
+                                                beat the heat). Lovely mix of busy streets (the traffic is not an issue,
+                                                very courteous and didn’t feel in danger at any time) and quiet laneways.
+                                                Really takes you behind the scenes. Morning tea stop in the rice paddies
+                                                with lovely Indonesian treats and then onto a really good coffee at
+                                                Bellissimo. Back to beach through laneways and then cycled the length of the
+                                                beach broad walk. 21kms all up which was great.
+                                                <br>
+                                                <small>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </small>
+                                            </p>
+                                            <footer class="blockquote-footer">Jbrickne</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 mb-3">
+                                <div class="card bg-maroon">
+                                    <div class="card-header text-yellow text-shadow fw-bold">
+                                        16 Jul 2022
                                     </div>
                                     <div class="card-body text-yellow">
                                         <blockquote class="blockquote mb-0">
@@ -111,7 +285,7 @@
                                                     <i class="bi bi-star-fill"></i>
                                                 </small>
                                             </p>
-                                            <footer class="blockquote-footer">John</footer>
+                                            <footer class="blockquote-footer">690JohnD690</footer>
                                         </blockquote>
                                     </div>
                                 </div>
@@ -120,19 +294,18 @@
                             <div class="col-lg-12 mb-3">
                                 <div class="card bg-maroon">
                                     <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Great way to see more - lots of fun"
+                                        20 Aug 2022
                                     </div>
                                     <div class="card-body text-yellow">
                                         <blockquote class="blockquote mb-0">
                                             <p class="fs-6">
-                                                Great way to see more - lots of fun My wife and I loved the morning tour we
-                                                did today - picked up on time at our hotel at 630 and we were off cycling
-                                                before 7 (good to be out early to beat the heat). Lovely mix of busy streets
-                                                (the traffic is not an issue, very courteous and didn’t feel in danger at
-                                                any time) and quiet laneways. Really takes you behind the scenes. Morning
-                                                tea stop in the rice paddies with lovely Indonesian treats and then onto a
-                                                really good coffee at Bellissimo. Back to beach through laneways and then
-                                                cycled the length of the beach broad walk. 21kms all up which was great.
+                                                Setting off at 6am we cycled along Sanur Beach stopping to to seen the
+                                                amazing sunrise. We then carried along the beach to "Jurassic Park" -Taman
+                                                Festival Bali an old amusement park, just north of Sanur. Closed due to
+                                                economic issues in 2002 and has been abandoned ever since. Interesting to
+                                                see the slow ruining of the buildings, statues, theatre, eating areas that
+                                                the jungle/plants are slowly taking over. Great for Photos! Great morning
+                                                with great guides and a good way to explore the local area.
                                                 <br>
                                                 <small>
                                                     <i class="bi bi-star-fill"></i>
@@ -142,294 +315,12 @@
                                                     <i class="bi bi-star-fill"></i>
                                                 </small>
                                             </p>
-                                            <footer class="blockquote-footer">Jbrickne</footer>
+                                            <footer class="blockquote-footer">adamgJ7352WJ</footer>
                                         </blockquote>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Beautiful way to see the local way of life."
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                I didn’t have any experience with bike riding, but keep fairly fit. I did
-                                                the tour to Ubud and back this morning. What a fabulous experience. Sanur
-                                                Cycle Tours are very professional, picked up on time, taken to starting
-                                                point, introduced to guide and Shane, set up on bike and off. I will admit I
-                                                was pretty nervous at first, but I want soon enjoying the whole thing. My
-                                                first ride, 52klms. Got to be happy with that. Thanks to Ivan and the great
-                                                crew, you just may see me agin.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">Jenni5959Katherine, Australia</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Morning ride along the beach path, markets, rice fields and to the Beatles Cavern"
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                We had a lovely guide Annie, who spoke great English and was very
-                                                entertaining. We started off from the office, and biked to the markets. Had
-                                                a good look around and purchased a few items, then to the beach, where we
-                                                biked along the path and stopped for the breakfast that was provided. Food
-                                                is personal choice and my husband ate his but it wasn't to my taste. After
-                                                short ride along the beach we stopped at a cafe on the beach for a coffee.
-                                                and then it was off to the rice fields. We were lucky to have a nice breeze
-                                                to cool us down. Enjoyed the stop at the Beatles Cavern to see all the
-                                                memorabilia of the Beatles era. The streets we rode on were not busy even
-                                                the main street, so not scary. It was a fun ride but would like to have had
-                                                a gell seat like Annie had. A bike ride worth doing.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">Callum46</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Sanur to ubud and back"
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                Nice early start in the cool part of the day, riding through parts of Bali
-                                                off the beaten track into some beautiful paddy fields, few hills thrown in
-                                                to get the legs working but nothing to steep, will book again when we come
-                                                back.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">d_j_plain</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Incredible time and great staff!"
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                We booked our tour really late the evening prior to our departure. Without
-                                                any issues Ivan and his professional team were able to organise a great
-                                                morning tour for us around the beautiful village of Sanur. It was great
-                                                getting to see parts of the village that are often missed, such as the
-                                                markets and turtle sanctuary. I couldn't be more impressed with Sanur Cycle
-                                                Tours!
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">Toria-dora</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Sunrise Tour"
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                My family of five enjoyed the tour (yes I have teenagers and yes they got up
-                                                early for it). We rode through back streets, along the beach and through the
-                                                rice fields. The guide was very informative and I very much enjoyed the
-                                                local knowledge and tasting some of the local cuisine at the market. It was
-                                                an easy pace and would suit most fitness levels. We had regular stops and
-                                                enjoyed a cool beverage at the end at the Beatles bar!
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">Toria-dora</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Sanur to ubud and back"
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                Really enjoyed this ride, 54 km and 200m elevation to ubud and back.
-                                                Surprisingly few hills, and the trails have hardly any people around. Get a
-                                                real feel for local life as you mostly ride through the farms and rice
-                                                fields. Ivan put this together for me last minute and worked around me being
-                                                solo, even found me a riding buddy. Dewi knows her way around the rice
-                                                fields like the back of her hand, and we came back a different way from the
-                                                way we had gone to ubud. Food was delicious, great company, and amazing
-                                                scenery! The company has a local masseuse who is fairly priced for how good
-                                                she is. She has a wealth of experience, having studied and worked all over
-                                                the world, and she is really kind and has fabulous hands! I’ve booked her
-                                                for another 2 massages on my return to Sanur before leaving Bali. Thanks
-                                                heaps for everything Ivan, I will be back to do a multi-day tour with you
-                                                next time.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">nannynofriends</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Everything we expected and more"
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                Having booked the cycling experience before leaving Australia I was a little
-                                                worried about how it would go. Hubby and I are in our early 60's but still
-                                                quite physicaly active but adding the Bali heat to this we were a little
-                                                concerned. Need not to have been. Cycle tour starts at owner Ivans home
-                                                where we were measured for our bikes and helmets and proceeds to the local
-                                                markets where we met one of our guides Mother. He told us about his family
-                                                and his life growing up and we did the same about our lives back is
-                                                Australia. The ride to Sanur beach was an easy one and despite being on
-                                                major throughfares, we felt safe and cared for at all times. We viewed where
-                                                the turtles are hatched awaiting their return to the ocean as well as seeing
-                                                some adult turtles. Checked out the Man Shed and an interesting display of
-                                                Beatles memorabilia. We had morning tea (purchased fresh from the markets
-                                                that morning) with Komang and Wayan by some rice fields/watermelon fields
-                                                and gradually returned to our starting point. A visit to a temple a must.
-                                                The ride was easy, the company great and we were cared for and checked on
-                                                through out the ride. Would definately recommend using this company and will
-                                                be back to do another ride on our next visit.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">megsk2014</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "Sanur to Ubud and return"
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                Thank you team for a great days experience and for encouraging me that I
-                                                could bike both ways 53.8km as I am a very small time bike user back home.
-                                                If you want to see the other side of beautiful Bali, get off the beach and
-                                                take a tour, there is nothing to regret.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">SherTraveller</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        "A wonderful morning adventure"
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                My partner and I went on the Jurassic Park morning cycle and had such a
-                                                great start to the day with Maria and Wayan! Ivan and his team are super
-                                                helpful and wanted to make sure everything was perfect for our cycle tour,
-                                                especially as there had been a surprise downpour in the middle of the night.
-                                                We loved getting to see the park on all its ruins and hearing about the
-                                                local area with our lovely guides. A really wonderful way to see hidden
-                                                parts of Sanur that we wouldn’t have been able to see if it weren’t for
-                                                Annie-Maria and Wayan
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">SherTraveller</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <!-- End Feature Content -->
                     </div>

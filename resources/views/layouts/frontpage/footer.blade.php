@@ -12,13 +12,15 @@
                         <div class="col-lg-4">
                             <ul class="list-unstyled mt-2">
                                 <li class="fw-bold float-start">
-                                    <a href="" class="text-yellow link"><i class="bi bi-chevron-right"></i>
+                                    <a href="{{ asset('assets/document/privacy-policy.pdf') }}" download="true"
+                                        class="text-yellow link"><i class="bi bi-chevron-right"></i>
                                         Privacy Policy
                                     </a>
                                 </li>
                                 <div class="clearfix"></div>
                                 <li class="fw-bold float-start">
-                                    <a href="" class="text-yellow link"><i class="bi bi-chevron-right"></i>
+                                    <a href="{{ asset('assets/document/booking-conditions.pdf') }}" download="true"
+                                        class="text-yellow link"><i class="bi bi-chevron-right"></i>
                                         Booking Conditions
                                     </a>
                                 </li>
@@ -29,11 +31,14 @@
                 <div class="col-md-4">
                     <div class="mu-footer-right">
                         <div class="mu-social-media">
-                            <a href="#"><i class="fa fa-facebook text-yellow"></i></a>
-                            <a href="#"><i class="fa fa-twitter text-yellow"></i></a>
-                            <a href="#"><i class="fa fa-google-plus text-yellow"></i></a>
-                            <a href="#"><i class="fa fa-linkedin text-yellow"></i></a>
-                            <a href="#"><i class="fa fa-youtube text-yellow"></i></a>
+                            <a href="https://www.facebook.com/sanurcycletours" target="_blank"><i
+                                    class="fa fa-facebook text-yellow"></i></a>
+                            <a href="https://twitter.com/sanurcycletours"><i class="fa fa-twitter text-yellow"
+                                    target="_blank"></i></a>
+                            <a href="https://www.instagram.com/sanurcycle/"><i class="fa fa-instagram text-yellow"
+                                    target="_blank"></i></a>
+                            <a href="https://www.youtube.com/@sanurcycletours1420"><i class="fa fa-youtube text-yellow"
+                                    target="_blank"></i></a>
                         </div>
                     </div>
                 </div>
