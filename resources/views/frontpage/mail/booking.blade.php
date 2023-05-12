@@ -87,7 +87,7 @@
     <br><br><br>
     <table width="650px" cellpadding="2" cellspacing="2">
         <tr>
-            <td align="center" style="color:#444">&copy;2016 Managed by Sanur Cycle Tours Developed By Baligatra
+            <td align="center" style="color:#444">&copy;2023 Managed by Sanur Cycle Tours Developed By Baligatra
             </td>
         </tr>
     </table>

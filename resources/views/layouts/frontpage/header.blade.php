@@ -1,4 +1,19 @@
     <!-- Start Header -->
+    @if (session()->has('success'))
+        <div aria-live="polite" aria-atomic="true" class="position-relative">
+            <div class="toast-container top-0 end-0 p-3">
+                <div class="toast align-items-center bg-maroon" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body text-yellow">
+                            {{ session('success') }}
+                        </div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    @endif
     <header class="d-flex flex-column">
         <div id="mu-hero" class="w-100 pr-0 pl-0 mb-4">
             <div class="mu-hero-area">

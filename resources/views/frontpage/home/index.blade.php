@@ -149,7 +149,6 @@
             </div>
         </div>
     </section>
-    <!-- End Featured Tours -->
 
     <!-- Start Contact -->
     <section id="mu-contact bg-maroon">
@@ -169,7 +168,9 @@
                                 <div class="col-md-12">
                                     <div class="mu-contact-form-area">
                                         <div id="form-messages"></div>
-                                        <form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
+                                        <form method="post" action="{{ route('frontpage.send.message') }}"
+                                            class="mu-contact-form">
+                                            @csrf
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
@@ -221,3 +222,11 @@
 
     <!-- End Google Map -->
 @endsection
+
+@push('js')
+    <script>
+        $(document).ready(function() {
+            $('.toast').toast('show');
+        });
+    </script>
+@endpush

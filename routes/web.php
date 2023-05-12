@@ -14,6 +14,8 @@ use App\Http\Controllers\Frontpage\CertificationController;
 
 Route::name('frontpage.')->group(function () {
     Route::get('/', HomeController::class)->name('home');
+    Route::post('send/message', [HomeController::class, 'send_message'])->name('send.message');
+
     Route::get('about', AboutController::class)->name('about');
 
     Route::get('tour', TourController::class)->name('tour');
