@@ -11,8 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('bookings', function (Blueprint $table) {
-            $table->string('order_id')->nullable();
+        Schema::table('tours', function (Blueprint $table) {
+            $table->boolean('book_package')->default(true);
         });
     }
 
@@ -21,8 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('bookings', function (Blueprint $table) {
-            $table->dropColumn('order_id');
+        Schema::table('tours', function (Blueprint $table) {
+            $table->dropColumn('book_package');
         });
     }
 };

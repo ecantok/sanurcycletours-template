@@ -22,7 +22,7 @@
         <div class="row mt-3">
             @foreach ($tours as $tour)
                 <div class="col-lg-4 mb-3">
-                    <div class="card rounded-0">
+                    <div class="card rounded-0 {{ $tour->show == 1 ? 'border-success' : 'border-danger' }}">
                         <div class="card-body">
                             <h5 class="card-title">{{ $tour->name }}</h5>
                             <a href="{{ route('admin.tour.show', $tour->slug) }}" class="card-link btn btn-link">Detail</a>

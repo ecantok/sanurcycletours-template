@@ -81,6 +81,55 @@
                         </div>
                     </div>
 
+                    <hr class="mb-0 font-weight-bold">
+                    <small class="text-warning mt-0 mb-3 text-center">* Warning Option</small>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <fieldset class="form-group row">
+                                <legend class="col-form-label col-sm-2 float-sm-left pt-0">Show</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="show" id="show-1"
+                                            value="1" checked>
+                                        <label class="form-check-label" for="show-1">
+                                            True
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="show" id="show-2"
+                                            value="0">
+                                        <label class="form-check-label" for="show-2">
+                                            False
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <fieldset class="form-group row">
+                                <legend class="col-form-label col-sm-2 float-sm-left pt-0">Book Page</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="book_package"
+                                            id="book-package-1" value="1" checked>
+                                        <label class="form-check-label" for="book-package-1">
+                                            True
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="book_package"
+                                            id="book-package-2" value="0">
+                                        <label class="form-check-label" for="book-package-2">
+                                            False
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+
                     <div class="mb-3">
                         <button class="btn btn-outline-primary rounded-0 w-100">Submit</button>
                     </div>

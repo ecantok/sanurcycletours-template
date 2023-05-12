@@ -14,7 +14,7 @@ class HomeController extends Controller
      */
     public function __invoke(Request $request)
     {
-        $tours = Tour::take(6)->get();
+        $tours = Tour::where('show', true)->latest()->take(6)->get();
         return view('frontpage.home.index', compact('tours'));
     }
 

@@ -13,7 +13,7 @@ class TourController extends Controller
      */
     public function __invoke(Request $request)
     {
-        $tours = Tour::all();
+        $tours = Tour::where('show', true)->latest()->get();
         return view('frontpage.tour.index', compact('tours'));
     }
 
