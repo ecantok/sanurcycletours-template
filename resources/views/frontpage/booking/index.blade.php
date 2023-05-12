@@ -500,24 +500,18 @@
                                             alert(
                                                 'Thank you for your submission.'
                                             );
-                                            $('#payment-status').val(
-                                                'success');
                                             $('#billing-form').submit();
                                         },
                                         onPending: function(result) {
                                             alert(
                                                 'Thank you for your submission.'
                                             );
-                                            $('#payment-status').val(
-                                                'pending');
                                             $('#billing-form').submit();
                                         },
                                         onError: function(result) {
                                             alert(
                                                 'Sorry, your payment is failed, please try again'
                                             );
-                                            $('#payment-status').val(
-                                                'failed');
                                             $('#billing-form').submit();
                                         }
                                     });
