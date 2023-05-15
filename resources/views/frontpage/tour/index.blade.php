@@ -12,7 +12,7 @@
                         <!-- Start Feature Content -->
                         <div class="row">
                             @foreach ($tours as $tour)
-                                <div class="col-md-4 mb-3">
+                                <div class="col-lg-4 mb-3">
                                     <div class="mu-featured-tours-single bg-maroon-1">
                                         @if (!blank($tour->images))
                                             <img src="{{ asset($tour->images->first()->path) }}" alt="img"
