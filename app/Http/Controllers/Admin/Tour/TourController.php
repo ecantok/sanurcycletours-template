@@ -19,7 +19,9 @@ class TourController extends Controller
 
     public function add()
     {
-        return view('adminpage.tour.add');
+        $tours = Tour::where('show', true)->orderBy('order', 'asc')->get();
+
+        return view('adminpage.tour.add', compact('tours'));
     }
 
     public function store(Request $request)
@@ -36,9 +38,12 @@ class TourController extends Controller
             'image.*' => 'nullable|file|image|mimes:jpeg,png,jpg,webp|max:5120',
             'show' => 'required|boolean',
             'book_package' => 'required|boolean',
+            'order' => 'required|integer',
+            'overview' => 'nullable|string',
         ]);
 
         $validData['slug'] = Str::slug($validData['name']);
+        $validData['status'] = 1;
 
         $tour = Tour::create($validData);
 
@@ -67,7 +72,9 @@ class TourController extends Controller
 
     public function edit(Tour $tour)
     {
-        return view('adminpage.tour.edit', compact('tour'));
+        $tours = Tour::where('show', true)->orderBy('order', 'asc')->get();
+
+        return view('adminpage.tour.edit', compact('tour', 'tours'));
     }
 
     public function update(Tour $tour, Request $request)
@@ -84,6 +91,8 @@ class TourController extends Controller
             'image.*' => 'nullable|file|image|mimes:jpeg,png,jpg,webp|max:5120',
             'show' => 'required|boolean',
             'book_package' => 'required|boolean',
+            'order' => 'required|integer',
+            'overview' => 'nullable|string',
         ]);
 
         $validData['slug'] = Str::slug($validData['name']);

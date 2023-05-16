@@ -38,6 +38,11 @@
                     </div>
 
                     <div class="mb-3">
+                        <label for="overview">Overview</label>
+                        <textarea class="form-control" id="overview" rows="3" name="overview">{{ $tour->overview }}</textarea>
+                    </div>
+
+                    <div class="mb-3">
                         <label for="content" class="form-label">Content</label>
                         <textarea name="content" id="content">{!! $tour->content !!}</textarea>
                     </div>
@@ -115,7 +120,7 @@
                     <small class="text-warning mt-0 mb-3 text-center">* Warning Option</small>
 
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <fieldset class="form-group row">
                                 <legend class="col-form-label col-sm-2 float-sm-left pt-0">Show</legend>
                                 <div class="col-sm-10">
@@ -137,7 +142,7 @@
                             </fieldset>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <fieldset class="form-group row">
                                 <legend class="col-form-label col-sm-2 float-sm-left pt-0">Book Package</legend>
                                 <div class="col-sm-10">
@@ -160,12 +165,40 @@
                                 </div>
                             </fieldset>
                         </div>
+
+                        <div class="col-lg-4">
+                            <input type="number" name="order" id="order" class="form-control"
+                                placeholder="order content" value="{{ $tour->order }}">
+                            <small>
+                                <a href="#" data-toggle="modal" data-target="#contentOrderModal">
+                                    show order content
+                                </a>
+                            </small>
+                        </div>
                     </div>
 
                     <div class="mb-3">
                         <button class="btn btn-outline-primary rounded-0 w-100">Submit</button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contentOrderModal" tabindex="-1" aria-labelledby="contentOrderModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ul class="list-group list-group-flush w-100">
+                        @foreach ($tours as $tour)
+                            <li class="list-group-item">{{ title_filter($tour->name) }} <span
+                                    class="float-right font-weight-bold">{{ $tour->order }}</span>
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
