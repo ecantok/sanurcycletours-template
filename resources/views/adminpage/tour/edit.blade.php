@@ -31,15 +31,29 @@
                     @csrf
                     @method('patch')
 
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" name="name"
-                            value="{{ $tour->name }}">
+                    <div class="row">
+                        <div class="mb-3 col-lg-8">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name"
+                                value="{{ $tour->name }}">
+                        </div>
+
+                        <div class="col-lg-4 mb-3">
+                            <label for="name" class="form-label">Category</label>
+                            <select class="custom-select" name="category_id" id="category-id">
+                                <option value="" hidden selected>Open this select menu</option>
+                                @foreach (get_categories() as $category)
+                                    <option value="{{ $category->id }}"
+                                        {{ $tour->category_id == $category->id ? 'selected' : '' }}>{{ $category->name }}
+                                    </option>
+                                @endforeach
+                            </select>
+                        </div>
                     </div>
 
                     <div class="mb-3">
                         <label for="overview">Overview</label>
-                        <textarea class="form-control" id="overview" rows="3" name="overview">{{ $tour->overview }}</textarea>
+                        <textarea class="form-control" id="overview" rows="10" name="overview">{{ $tour->overview }}</textarea>
                     </div>
 
                     <div class="mb-3">

@@ -9,8 +9,22 @@
                 class="{{ request()->routeIs('frontpage.about') ? 'active' : '' }} text-yellow text-shadow">About Us</a>
         </li>
         <li>
-            <a href="{{ route('frontpage.tour') }}"
-                class="{{ request()->routeIs('frontpage.tour') ? 'active' : '' }} text-yellow text-shadow">Tours</a>
+            <div class="dropdown">
+                <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                    class="{{ request()->routeIs('frontpage.tour') ? 'active' : '' }} text-yellow text-shadow">Tours</a>
+
+                <ul class="dropdown-menu bg-maroon">
+                    @foreach (get_categories() as $category)
+                        <li>
+                            <a class="dropdown-item text-yellow" href="{{ route('frontpage.tour', $category->slug) }}"
+                                onmouseover="this.style.backgroundColor='#5b0102';"
+                                onmouseout="this.style.backgroundColor='#542c3a';">
+                                {{ $category->name }}
+                            </a>
+                        </li>
+                    @endforeach
+                </ul>
+            </div>
         </li>
         <li>
             <a href="{{ route('frontpage.bicycle') }}"

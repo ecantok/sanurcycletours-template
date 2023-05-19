@@ -5,7 +5,7 @@
 @section('content')
     <section id="main-cont" class="bg-maroon">
         <div class="container">
-            <h2 class="welcome text-yellow text-shadow">TOURS</h2>
+            <h2 class="welcome text-yellow text-shadow text-capitalize">{{ $category->name }}</h2>
             <div class="row">
                 <div class="col-md-12">
                     <div class="mu-about-area">
@@ -24,7 +24,7 @@
                                         <div class="mu-featured-tours-single-info">
                                             <h3 class="text-yellow">{{ title_filter($tour->name) }}</h3>
                                             <div class="text-yellow">{!! str_limit($tour?->overview, 200) !!}</div>
-                                            <a href="{{ route('frontpage.tour.detail', $tour->slug) }}"
+                                            <a href="{{ route('frontpage.tour.detail', ['tour' => $tour->slug, 'category' => $category->slug]) }}"
                                                 class="float-start mu-book-now-btn text-yellow">Detail</a>
                                             <a href="{{ route('frontpage.booking') }}"
                                                 class="mu-book-now-btn text-yellow">Book Now</a>

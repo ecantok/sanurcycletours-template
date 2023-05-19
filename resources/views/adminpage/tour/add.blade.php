@@ -23,10 +23,24 @@
                 <form action="{{ route('admin.tour.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
 
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" name="name"
-                            value="{{ old('name') }}">
+                    <div class="row">
+                        <div class="mb-3 col-lg-8">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name"
+                                value="{{ old('name') }}">
+                        </div>
+
+                        <div class="col-lg-4 mb-3">
+                            <label for="name" class="form-label">Category</label>
+                            <select class="custom-select" name="category_id" id="category-id">
+                                <option value="" hidden selected>Open this select menu</option>
+                                @foreach (get_categories() as $category)
+                                    <option value="{{ $category->id }}"
+                                        {{ old('category_id') == $category->id ? 'selected' : '' }}>{{ $category->name }}
+                                    </option>
+                                @endforeach
+                            </select>
+                        </div>
                     </div>
 
                     <div class="mb-3">

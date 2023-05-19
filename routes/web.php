@@ -12,31 +12,6 @@ use App\Http\Controllers\Frontpage\MidtransController;
 use App\Http\Controllers\Frontpage\TestimonialController;
 use App\Http\Controllers\Frontpage\CertificationController;
 
-Route::name('frontpage.')->group(function () {
-    Route::get('/', HomeController::class)->name('home');
-    Route::post('send/message', [HomeController::class, 'send_message'])->name('send.message');
-
-    Route::get('about', AboutController::class)->name('about');
-
-    Route::get('tour', TourController::class)->name('tour');
-    Route::get('tour/{tour:slug}', [TourController::class, 'detail'])->name('tour.detail');
-
-    Route::get('bicycle', BicycleController::class)->name('bicycle');
-    Route::get('gallery', GalleryController::class)->name('gallery');
-    Route::get('certification', CertificationController::class)->name('certification');
-    Route::get('testimonial', TestimonialController::class)->name('testimonial');
-    Route::get('booking', BookingController::class)->name('booking');
-    Route::post('tour/book', [BookingController::class, 'book'])->name('tour.book');
-    Route::post('book/billing', [BookingController::class, 'billing'])->name('book.billing');
-
-    // ajax
-    Route::post('form/validation', [BookingController::class, 'validation'])->name('form.validation');
-    Route::get('detail/billing', [BookingController::class, 'detail_billing'])->name('detail.billing');
-    Route::post('form/billing/validation', [BookingController::class, 'validation_billing'])->name('form.billing.validation');
-
-    Route::post('generate/snap/token', [MidtransController::class, 'generate_snap_token'])->name('generate.snap.token');
-});
-
 Route::get('login', [LoginController::class, 'index'])->name('login');
 Route::post('login', [LoginController::class, 'auth'])->name('login.auth');
 
@@ -64,4 +39,29 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
     Route::get('gallery/{gallery:id}/delete', [\App\Http\Controllers\Admin\Gallery\GalleryController::class, 'delete'])->name('gallery.delete');
 
     Route::get('image/{image:id}/delete', [\App\Http\Controllers\Admin\Image\ImageController::class, 'delete'])->name('image.delete');
+});
+
+Route::name('frontpage.')->group(function () {
+    Route::get('/', HomeController::class)->name('home');
+    Route::post('send/message', [HomeController::class, 'send_message'])->name('send.message');
+
+    Route::get('about', AboutController::class)->name('about');
+
+    Route::get('tour/{category:slug}', TourController::class)->name('tour');
+    Route::get('tour/{category:slug}/{tour:slug}', [TourController::class, 'detail'])->name('tour.detail');
+
+    Route::get('bicycle', BicycleController::class)->name('bicycle');
+    Route::get('gallery', GalleryController::class)->name('gallery');
+    Route::get('certification', CertificationController::class)->name('certification');
+    Route::get('testimonial', TestimonialController::class)->name('testimonial');
+    Route::get('booking', BookingController::class)->name('booking');
+    Route::post('tour/book', [BookingController::class, 'book'])->name('tour.book');
+    Route::post('book/billing', [BookingController::class, 'billing'])->name('book.billing');
+
+    // ajax
+    Route::post('form/validation', [BookingController::class, 'validation'])->name('form.validation');
+    Route::get('detail/billing', [BookingController::class, 'detail_billing'])->name('detail.billing');
+    Route::post('form/billing/validation', [BookingController::class, 'validation_billing'])->name('form.billing.validation');
+
+    Route::post('generate/snap/token', [MidtransController::class, 'generate_snap_token'])->name('generate.snap.token');
 });

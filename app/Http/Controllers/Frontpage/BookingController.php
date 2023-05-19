@@ -14,7 +14,7 @@ class BookingController extends Controller
 {
     public function __invoke()
     {
-        $tours = Tour::where('book_package', true)->latest()->get();
+        $tours = Tour::where('book_package', true)->orderBy('order', 'asc')->get();
         $countries = Country::all();
 
         return view('frontpage.booking.index', compact('tours', 'countries'));

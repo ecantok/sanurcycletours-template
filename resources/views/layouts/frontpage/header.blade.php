@@ -132,11 +132,12 @@
             <div class="container main-text-mobile">
                 <div class="text-left">
                     <h1 class="text-yellow text-shadow">
-                        Welcome To The Travel Agency </h1>
+                        Welcome To Sanur Cycle Tours </h1>
                     <h3 class="text-yellow text-shadow">
                         We Provide the best tours for you
                     </h3>
-                    <p class="fs-4 text-yellow text-shadow">Now Available exclusively for Lorem Ipsum</p>
+                    <p class="fs-4 text-yellow text-shadow">Your adventure cycling tours of
+                        Sanur, Bali & Beyond.</p>
                 </div>
                 <div>
                     <a href="{{ route('frontpage.booking') }}"

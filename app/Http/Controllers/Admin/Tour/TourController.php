@@ -19,7 +19,7 @@ class TourController extends Controller
 
     public function add()
     {
-        $tours = Tour::where('show', true)->orderBy('order', 'asc')->get();
+        $tours = Tour::orderBy('order', 'asc')->get();
 
         return view('adminpage.tour.add', compact('tours'));
     }
@@ -40,6 +40,7 @@ class TourController extends Controller
             'book_package' => 'required|boolean',
             'order' => 'required|integer',
             'overview' => 'nullable|string',
+            'category_id' => 'required|integer',
         ]);
 
         $validData['slug'] = Str::slug($validData['name']);
@@ -72,7 +73,7 @@ class TourController extends Controller
 
     public function edit(Tour $tour)
     {
-        $tours = Tour::where('show', true)->orderBy('order', 'asc')->get();
+        $tours = Tour::orderBy('order', 'asc')->get();
 
         return view('adminpage.tour.edit', compact('tour', 'tours'));
     }
@@ -93,6 +94,7 @@ class TourController extends Controller
             'book_package' => 'required|boolean',
             'order' => 'required|integer',
             'overview' => 'nullable|string',
+            'category_id' => 'required|integer',
         ]);
 
         $validData['slug'] = Str::slug($validData['name']);

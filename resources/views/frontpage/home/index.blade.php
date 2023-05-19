@@ -133,7 +133,7 @@
                                             <div class="mu-featured-tours-single-info">
                                                 <h3 class="text-yellow">{{ title_filter($tour->name) }}</h3>
                                                 <div class="text-yellow">{!! str_limit($tour?->overview, 200) !!}</div>
-                                                <a href="{{ route('frontpage.tour.detail', $tour->slug) }}"
+                                                <a href="{{ route('frontpage.tour.detail', ['tour' => $tour->slug, 'category' => $tour->category->slug]) }}"
                                                     class="float-start mu-book-now-btn text-yellow">Detail</a>
                                                 <a href="{{ route('frontpage.booking') }}"
                                                     class="mu-book-now-btn text-yellow">Book Now</a>
