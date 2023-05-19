@@ -18,6 +18,27 @@
                                 </a>
                             </div>
 
+                            <div class="col-lg-2 col-md-4 col-sm-2 mb-3">
+                                <div id="TA_linkingWidgetRedesign453" class="TA_linkingWidgetRedesign" bis_skin_checked="1">
+                                    <div id="CDSWIDLNKR" class=" cx_brand_refresh1 border" bis_skin_checked="1">
+                                        <div class="widLNKRInner" bis_skin_checked="1">
+                                            <ul>
+                                                <li id="talink" class="widLNKSml"><a target="_blank"
+                                                        href="https://www.tripadvisor.co.uk/Attraction_Review-g297700-d3949024-Reviews-Sanur_Cycle_Tours-Sanur_Denpasar_Bali-m15079.html"
+                                                        onclick="ta.cds.handleTALink(15079,this);return true;"
+                                                        rel="nofollow">Read reviews of Sanur Cycle Tours</a></li>
+                                                <li> <a target="_blank" href="https://www.tripadvisor.co.uk/"><img
+                                                            src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                                                            alt="Tripadvisor"></a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script
+                                    src="https://www.jscache.com/wejs?wtype=linkingWidgetRedesign&amp;uniq=453&amp;locationId=3949024&amp;lang=en_UK&amp;border=true&amp;display_version=2">
+                                </script>
+                            </div>
+
                             <div class="col-lg-2 col-md-4 col-sm-2 mb-3" bis_skin_checked="1">
                                 <div id="TA_certificateOfExcellence632" class="TA_certificateOfExcellence"
                                     bis_skin_checked="1">
