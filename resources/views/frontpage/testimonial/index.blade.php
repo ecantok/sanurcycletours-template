@@ -85,241 +85,31 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        11 Apr 2023
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                What an awesome way to see some of the back roads of Sanur and the beautiful
-                                                beach track. Our guide was absolutely fantastic and took extra care of us
-                                                travelling with our grandson who was 8. You guys rock.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">petejudemillar</footer>
-                                        </blockquote>
+                            @forelse ($testimonials as $testimonial)
+                                <div class="col-lg-12 mb-3">
+                                    <div class="card bg-maroon">
+                                        <div class="card-header text-yellow text-shadow fw-bold">
+                                            {{ $testimonial->title }}
+                                        </div>
+                                        <div class="card-body text-yellow">
+                                            <blockquote class="blockquote mb-0">
+                                                <p class="fs-6">
+                                                    {{ $testimonial->content }}
+                                                    <br>
+                                                    <small>
+                                                        @for ($i = 1; $i <= $testimonial->stars; $i++)
+                                                            <i class="bi bi-star-fill"></i>
+                                                        @endfor
+                                                    </small>
+                                                </p>
+                                                <footer class="blockquote-footer">{{ $testimonial->author }}</footer>
+                                            </blockquote>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        10 Feb 2023
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                I had a great mid-morning cycling tour through Sanur with this company.
-                                                Communication and service was really good! Nice company! If you want to see
-                                                some places in/around Sanur, try a cycle tour with them :).
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">karlienvn</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        6 Mar 2023
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                went on an early morning ride to watch the sunrise, then onto Jurassic Park
-                                                Tour with Widuri. She was a wonderful and caring guide . The tour fulfilled
-                                                all my expectations.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">janette3220</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        14 Dec 2022
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                We did the Sunrise tour with Wayan yesterday, it was very exciting and fun.
-                                                We picked up at 5.40, went to the shop to get the bike, and start cycling.
-                                                The beach looks amazing in the morning. We ride a beautiful path along the
-                                                beach, with nice restaurants at the other side... Padi fields and local
-                                                market... and stop by at sea turtle conservation. The tour really gives you
-                                                a different perspective to enjoy Sanur.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">marthawidhyanto</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        29 Oct 2022
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                I did the Jurassic Park ride with Annie and Wayan last week. Picked up on
-                                                time at 5.45am and taken to their shop starting point. Nice, excellent
-                                                condition bikes which were very easy to ride with a handy little basket! We
-                                                rode up the beach path to the old festival park. I was fortunate to visit
-                                                the park as a child as it opened in 1997. Had ample time to wander around.
-                                                At times the path was quite slippery ( due to moss/ wet/ jungle growth on
-                                                the old mosaics/ pavement around) Ensure you wear a lot of insect Repellent-
-                                                there are a huge amount of mosquito's about. From there we crossed the
-                                                bypass to cycle through Sanur and over to the rice paddies, where we stopped
-                                                for a light breakfast. Then rode back to the starting point. I was checked
-                                                in with frequently to ensure I was going ok and the pace suitable. It is
-                                                quite flat overall, so a very enjoyable ride. Annie and Wayan were very
-                                                friendly and informative and made for a very enjoyable morning
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">Cassandra3186</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        19 Sep 2022
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                My wife and I loved the morning tour we did today - picked up on time at our
-                                                hotel at 06:30 and we were off cycling before 7 (good to be out early to
-                                                beat the heat). Lovely mix of busy streets (the traffic is not an issue,
-                                                very courteous and didn’t feel in danger at any time) and quiet laneways.
-                                                Really takes you behind the scenes. Morning tea stop in the rice paddies
-                                                with lovely Indonesian treats and then onto a really good coffee at
-                                                Bellissimo. Back to beach through laneways and then cycled the length of the
-                                                beach broad walk. 21kms all up which was great.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">Jbrickne</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        16 Jul 2022
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                Bicycle tours around Bali and Nusa Penida with a small company renowned for
-                                                supplying quality bicycles and equipment which are well maintained and
-                                                serviced. They offer easy local market and cultural rides, as well as day
-                                                bicycle tours to various areas of Bali. Their highly experienced guides are
-                                                second to none, being competent, caring and friendly. They are also keen and
-                                                knowledgeable bicycle riders with good communication skills and excellent
-                                                navigators. Highly recommended offering massages on multi day trips,
-                                                helmets, meals and so on. All equipment is supplied at very reasonable
-                                                prices in Indonesian Rupiah. 5 stars
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">690JohnD690</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 mb-3">
-                                <div class="card bg-maroon">
-                                    <div class="card-header text-yellow text-shadow fw-bold">
-                                        20 Aug 2022
-                                    </div>
-                                    <div class="card-body text-yellow">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="fs-6">
-                                                Setting off at 6am we cycled along Sanur Beach stopping to to seen the
-                                                amazing sunrise. We then carried along the beach to "Jurassic Park" -Taman
-                                                Festival Bali an old amusement park, just north of Sanur. Closed due to
-                                                economic issues in 2002 and has been abandoned ever since. Interesting to
-                                                see the slow ruining of the buildings, statues, theatre, eating areas that
-                                                the jungle/plants are slowly taking over. Great for Photos! Great morning
-                                                with great guides and a good way to explore the local area.
-                                                <br>
-                                                <small>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                    <i class="bi bi-star-fill"></i>
-                                                </small>
-                                            </p>
-                                            <footer class="blockquote-footer">adamgJ7352WJ</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
+                            @empty
+                                <h1 class="text-center text-yellow">Testimonial Not Found</h1>
+                            @endforelse
 
                         </div>
                         <!-- End Feature Content -->

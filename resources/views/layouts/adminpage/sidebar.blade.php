@@ -25,6 +25,14 @@
             <i class="fas fa-fw fa-image"></i>
             <span>Gallery</span>
         </a>
+        <a class="nav-link" href="{{ route('admin.category.index') }}">
+            <i class="fas fa-fw fa-folder-closed"></i>
+            <span>Category</span>
+        </a>
+        <a class="nav-link" href="{{ route('admin.testimonial.index') }}">
+            <i class="fas fa-fw fa-users-line"></i>
+            <span>Testimonial</span>
+        </a>
     </li>
 
     <!-- Divider -->

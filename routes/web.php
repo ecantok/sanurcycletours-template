@@ -38,6 +38,14 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
     Route::post('gallery/add', [\App\Http\Controllers\Admin\Gallery\GalleryController::class, 'store'])->name('gallery.store');
     Route::get('gallery/{gallery:id}/delete', [\App\Http\Controllers\Admin\Gallery\GalleryController::class, 'delete'])->name('gallery.delete');
 
+    Route::get('testimonial', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'index'])->name('testimonial.index');
+    Route::get('testimonial/add', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'add'])->name('testimonial.add');
+    Route::post('testimonial/add', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'store'])->name('testimonial.store');
+    Route::get('testimonial/{testimonial:id}/delete', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'delete'])->name('testimonial.delete');
+
+    Route::get('category', [\App\Http\Controllers\Admin\Category\CategoryController::class, 'index'])->name('category.index');
+    Route::get('category/add', [\App\Http\Controllers\Admin\Category\CategoryController::class, 'add'])->name('category.add');
+
     Route::get('image/{image:id}/delete', [\App\Http\Controllers\Admin\Image\ImageController::class, 'delete'])->name('image.delete');
 });
 
