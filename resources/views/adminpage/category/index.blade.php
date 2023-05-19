@@ -34,8 +34,13 @@
                                 <td>{{ $category->slug }}</td>
                                 <td>{{ $category->name }}</td>
                                 <td>
-                                    <a href="" class="mr-3 mb-3"><i class="fa-solid fa-pencil"></i></a>
-                                    <a href=""><i class="fa-solid fa-trash"></i></a>
+                                    <a href="{{ route('admin.category.edit', $category->slug) }}" class="mr-3 mb-3">
+                                        <i class="fa-solid fa-pencil"></i>
+                                    </a>
+                                    <a href="{{ route('admin.category.delete', $category->slug) }}"
+                                        onclick="return confirm('are you sure?')">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </a>
                                 </td>
                             </tr>
                         @endforeach

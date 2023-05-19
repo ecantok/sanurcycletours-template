@@ -12,7 +12,7 @@ class TourController extends Controller
 {
     public function index()
     {
-        $tours = Tour::latest()->get();
+        $tours = Tour::orderBy('order', 'asc')->get();
 
         return view('adminpage.tour.index', compact('tours'));
     }

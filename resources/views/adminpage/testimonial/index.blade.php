@@ -42,8 +42,13 @@
                                     @endfor
                                 </td>
                                 <td>
-                                    <a href="" class="mr-3 mb-3"><i class="fa-solid fa-pencil"></i></a>
-                                    <a href=""><i class="fa-solid fa-trash"></i></a>
+                                    <a href="{{ route('admin.testimonial.edit', $testimonial->slug) }}" class="mr-3 mb-3">
+                                        <i class="fa-solid fa-pencil"></i>
+                                    </a>
+                                    <a href="{{ route('admin.testimonial.delete', $testimonial->slug) }}"
+                                        onclick="return confirm('are you sure?')">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </a>
                                 </td>
                             </tr>
                         @empty

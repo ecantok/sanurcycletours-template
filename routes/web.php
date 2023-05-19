@@ -41,10 +41,16 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
     Route::get('testimonial', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'index'])->name('testimonial.index');
     Route::get('testimonial/add', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'add'])->name('testimonial.add');
     Route::post('testimonial/add', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'store'])->name('testimonial.store');
-    Route::get('testimonial/{testimonial:id}/delete', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'delete'])->name('testimonial.delete');
+    Route::get('testimonial/{testimonial:slug}/edit', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'edit'])->name('testimonial.edit');
+    Route::patch('testimonial/{testimonial:slug}/edit', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'update'])->name('testimonial.update');
+    Route::get('testimonial/{testimonial:slug}/delete', [\App\Http\Controllers\Admin\Testimonial\TestimonialController::class, 'delete'])->name('testimonial.delete');
 
     Route::get('category', [\App\Http\Controllers\Admin\Category\CategoryController::class, 'index'])->name('category.index');
     Route::get('category/add', [\App\Http\Controllers\Admin\Category\CategoryController::class, 'add'])->name('category.add');
+    Route::post('category/add', [\App\Http\Controllers\Admin\Category\CategoryController::class, 'store'])->name('category.store');
+    Route::get('category/{category:slug}/edit', [\App\Http\Controllers\Admin\Category\CategoryController::class, 'edit'])->name('category.edit');
+    Route::patch('category/{category:slug}/edit', [\App\Http\Controllers\Admin\Category\CategoryController::class, 'update'])->name('category.update');
+    Route::get('category/{category:slug}/delete', [\App\Http\Controllers\Admin\Category\CategoryController::class, 'delete'])->name('category.delete');
 
     Route::get('image/{image:id}/delete', [\App\Http\Controllers\Admin\Image\ImageController::class, 'delete'])->name('image.delete');
 });

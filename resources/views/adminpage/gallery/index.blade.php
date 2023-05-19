@@ -27,6 +27,7 @@
                         <a href="{{ $gallery->link }}" target="_blank">
                             <img src="{{ asset($gallery->image) }}" alt="thumbnail-video" class="w-100 img-fluid">
                             <a href="{{ route('admin.gallery.delete', $gallery->id) }}"
+                                onclick="return confirm('are you sure?')"
                                 class="position-absolute top-0 badge rounded-pill bg-danger " style="right: 12px;">
                                 <i class="bi bi-trash-fill"></i>
                             </a>
@@ -45,6 +46,7 @@
                     <div class="col-lg-2 position-relative mb-3">
                         <img src="{{ asset($gallery->image) }}" alt="thumbnail-video" class="img-fluid w-100">
                         <a href="{{ route('admin.gallery.delete', $gallery->id) }}"
+                            onclick="return confirm('are you sure?')"
                             class="position-absolute top-0 badge rounded-pill bg-danger " style="right: 12px;">
                             <i class="bi bi-trash-fill"></i>
                         </a>

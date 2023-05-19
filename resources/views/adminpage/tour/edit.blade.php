@@ -120,6 +120,7 @@
                                     <div class="col-md-3 mb-3 position-relative">
                                         <img src="{{ asset($image->path) }}" alt="" class="img-fluid w-100">
                                         <a href="{{ route('admin.image.delete', $image->id) }}"
+                                            onclick="return confirm('are you sure?')"
                                             class="position-absolute top-0 badge rounded-pill bg-danger "
                                             style="right: 12px;">
                                             <i class="bi bi-trash-fill"></i>

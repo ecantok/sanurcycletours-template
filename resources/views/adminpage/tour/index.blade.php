@@ -30,7 +30,8 @@
                             <form class="d-inline" action="{{ route('admin.tour.delete', $tour->slug) }}" method="POST">
                                 @csrf
                                 @method('delete')
-                                <button class="card-link btn btn-link">Delete</button>
+                                <button class="card-link btn btn-link"
+                                    onclick="return confirm('are you sure?')">Delete</button>
                             </form>
                         </div>
                     </div>
