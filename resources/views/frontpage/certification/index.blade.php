@@ -39,6 +39,42 @@
                                 </script>
                             </div>
 
+                            <div class="col-lg-2 col-md-4 col-sm-2 mb-3">
+                                <div id="TA_virtualsticker766" class="TA_virtualsticker"
+                                    style="width: 155px; overflow: hidden; margin-left: -10px;" bis_skin_checked="1">
+                                    <div class="container" bis_skin_checked="1">
+                                        <div id="CDSWIDSTICKER" bis_skin_checked="1"> <a
+                                                href="https://www.tripadvisor.co.uk/Attraction_Review-g297700-d3949024-Reviews-Sanur_Cycle_Tours-Sanur_Denpasar_Bali.html"
+                                                onclick="ta.cds.handleTALink(18961,this);return true;" target="_blank"
+                                                rel="nofollow">
+                                                <div id="CDSWIDHEADER" bis_skin_checked="1">
+                                                    <div id="CDSWIDSTICKERHEADLINE" bis_skin_checked="1">Reviewed on
+                                                        tripadvisor.co.uk</div>
+                                                </div>
+                                            </a>
+                                            <div id="CDSWIDLOGO" bis_skin_checked="1"> <a target="_blank"
+                                                    href="https://www.tripadvisor.co.uk/"
+                                                    bis_size="{&quot;x&quot;:1096,&quot;y&quot;:1447,&quot;w&quot;:130,&quot;h&quot;:55,&quot;abs_x&quot;:1096,&quot;abs_y&quot;:1447}"><img
+                                                        src="https://www.tripadvisor.co.uk/img/cdsi/img2/branding/tripadvisor_sticker_logo_88x55-18961-2.png"
+                                                        alt="TripAdvisor"
+                                                        bis_size="{&quot;x&quot;:1118,&quot;y&quot;:1447,&quot;w&quot;:88,&quot;h&quot;:55,&quot;abs_x&quot;:1118,&quot;abs_y&quot;:1447}"
+                                                        bis_id="bn_7n5xgoaowjm0lxx1vvcwa6"></a> </div>
+                                        </div>
+                                    </div>
+                                    <script type="text/javascript">
+                                        window.onload = function() {
+                                            var headline = document.getElementById("CDSWIDSTICKERHEADLINE");
+                                            if (headline.scrollHeight > 30) {
+                                                headline.className = "longHeadline";
+                                            }
+                                        }
+                                    </script>
+                                </div>
+                                <script
+                                    src="https://www.jscache.com/wejs?wtype=virtualsticker&amp;uniq=766&amp;lang=en_UK&amp;locationId=3949024&amp;display_version=2">
+                                </script>
+                            </div>
+
                             <div class="col-lg-2 col-md-4 col-sm-2 mb-3" bis_skin_checked="1">
                                 <div id="TA_certificateOfExcellence632" class="TA_certificateOfExcellence"
                                     bis_skin_checked="1">
