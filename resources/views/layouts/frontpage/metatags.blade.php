@@ -28,12 +28,13 @@
     <title>Sanur Cycle Tours - Guided Tours of Sanur Bali</title>
     <meta name="description"
         content="Sanur Cycle Tours is a100% locally owned and operated business based in central Sanur and we would like to show you the real Sanur village & Bali with our 3 to 4 hour local tours as well as our longer & multi-day adventure cycling Tours. Join us as we take you on a leisurely ride thru the village of Sanur introducing you to village locals and the Balinese culture. Or allow us to share the real Bali & Nusa Penida Island with you on our specialised Adventure rides!">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/cycle-logo.webp') }}">
 
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="Sanur Cycle Tours - Guided Tours of Sanur Bali">
     <meta itemprop="description"
         content="Sanur Cycle Tours is a100% locally owned and operated business based in central Sanur and we would like to show you the real Sanur village & Bali with our 3 to 4 hour local tours as well as our longer & multi-day adventure cycling Tours. Join us as we take you on a leisurely ride thru the village of Sanur introducing you to village locals and the Balinese culture. Or allow us to share the real Bali & Nusa Penida Island with you on our specialised Adventure rides!">
-    <meta itemprop="image" content="{{ asset('assets/images/favicon.ico') }}">
+    <meta itemprop="image" content="{{ asset('assets/images/cycle-logo.webp') }}">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://sanurcycletours.com">
@@ -41,14 +42,14 @@
     <meta property="og:title" content="Sanur Cycle Tours - Guided Tours of Sanur Bali">
     <meta property="og:description"
         content="Sanur Cycle Tours is a100% locally owned and operated business based in central Sanur and we would like to show you the real Sanur village & Bali with our 3 to 4 hour local tours as well as our longer & multi-day adventure cycling Tours. Join us as we take you on a leisurely ride thru the village of Sanur introducing you to village locals and the Balinese culture. Or allow us to share the real Bali & Nusa Penida Island with you on our specialised Adventure rides!">
-    <meta property="og:image" content="{{ asset('assets/images/favicon.ico') }}">
+    <meta property="og:image" content="{{ asset('assets/images/cycle-logo.webp') }}">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sanur Cycle Tours - Guided Tours of Sanur Bali">
     <meta name="twitter:description"
         content="Sanur Cycle Tours is a100% locally owned and operated business based in central Sanur and we would like to show you the real Sanur village & Bali with our 3 to 4 hour local tours as well as our longer & multi-day adventure cycling Tours. Join us as we take you on a leisurely ride thru the village of Sanur introducing you to village locals and the Balinese culture. Or allow us to share the real Bali & Nusa Penida Island with you on our specialised Adventure rides!">
-    <meta name="twitter:image" content="{{ asset('assets/images/favicon.ico') }}">
+    <meta name="twitter:image" content="{{ asset('assets/images/cycle-logo.webp') }}">
 
     <!-- Meta Tags Generated via http://heymeta.com -->
 @endif
