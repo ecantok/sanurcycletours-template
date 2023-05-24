@@ -215,7 +215,7 @@
 
     <div id="mu-google-map">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435.2086552289873!2d115.25297091130547!3d-8.708602779937895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241c7a57e3203%3A0x33975af2565cd6bc!2sSanur%20Cycle%20Tours!5e0!3m2!1sid!2sid!4v1682311211439!5m2!1sid!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435.2086552289873!2d115.25297091130547!3d-8.708602779937895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241c7a57e3203%3A0x33975af2565cd6bc!2sSanur%20Cycle%20Tours!5e0!3m2!1sen!2sen!4v1682311211439!5m2!1sen!2sen"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
