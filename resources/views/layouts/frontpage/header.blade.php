@@ -54,11 +54,11 @@
                                         Welcome To Sanur Cycle Tours </h1>
                                     <h3 data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"
                                         class="text-yellow text-shadow">
-                                        We Provide the best tours for you
+                                        We provide the best cycling tours & adventure cycling tours of Bali for you.
                                     </h3>
                                     <p class="fs-4 text-yellow text-shadow" data-aos="fade-up" data-aos-duration="800"
-                                        data-aos-delay="1400" style="font-size: 1.5rem;">Your adventure cycling tours of
-                                        Sanur, Bali & Beyond.</p>
+                                        data-aos-delay="1400" style="font-size: 1.5rem;">Your only adventure cycling
+                                        tours of Sanur, Bali & Beyond.</p>
                                     <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="1600">
                                         <a href="{{ route('frontpage.booking') }}"
                                             class="btn btn-outline-light mt-2 big-transition text-yellow text-shadow btn-book"
@@ -134,10 +134,10 @@
                     <h1 class="text-yellow text-shadow">
                         Welcome To Sanur Cycle Tours </h1>
                     <h3 class="text-yellow text-shadow">
-                        We Provide the best tours for you
+                        We provide the best cycling tours & adventure cycling tours of Bali for you.
                     </h3>
-                    <p class="fs-4 text-yellow text-shadow">Your adventure cycling tours of
-                        Sanur, Bali & Beyond.</p>
+                    <p class="fs-4 text-yellow text-shadow">Your only adventure cycling tours of Sanur, Bali & Beyond.
+                    </p>
                 </div>
                 <div>
                     <a href="{{ route('frontpage.booking') }}"

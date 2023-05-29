@@ -27,32 +27,9 @@ class MidtransController extends Controller
 
         $params = [
             'transaction_details' => [
-                'order_id' => 'SCT-' . $booking->id . '-' . time(),
+                'order_id' => $booking->order_id,
                 'gross_amount' => $booking->total_dp,
             ],
-            // "enabled_payments" => [
-            //     "credit_card",
-            //     "gopay",
-            //     // "shopeepay",
-            //     "permata_va",
-            //     "bca_va",
-            //     "bni_va",
-            //     "bri_va",
-            //     "echannel",
-            //     "other_va",
-            //     // "danamon_online",
-            //     // "mandiri_clickpay",
-            //     // "cimb_clicks",
-            //     // "bca_klikbca",
-            //     // "bca_klikpay",
-            //     // "bri_epay",
-            //     // "xl_tunai",
-            //     // "indosat_dompetku",
-            //     // "kioson",
-            //     // "Indomaret",
-            //     // "alfamart",
-            //     // "akulaku"
-            // ],
             'credit_card' => [
                 "secure" => true
             ],

@@ -86,15 +86,27 @@
                 <div class="col-md-12">
                     <div class="mu-video-area">
                         <h2 class="text-yellow text-shadow">Watch Our Recent Trip Video</h2>
-                        <p class="mu-title-content text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        {{-- <p class="mu-title-content text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Eum
                             impedit nostrum porro possimus nesciunt voluptate, id nam. Harum deserunt nobis esse
-                            iste voluptatem cumque neque quo sunt velit. Nostrum, provident!</p>
+                            iste voluptatem cumque neque quo sunt velit. Nostrum, provident!</p> --}}
 
                         <!-- Start Video content -->
                         <div class="mu-video-content">
                             <iframe width="854" height="480" src="https://www.youtube.com/embed/-DQo0Ccacy8"
                                 allowfullscreen></iframe>
+                            <div class="d-flex m-auto" style="max-width:854px;">
+                                <a href="">
+                                    <img src="{{ asset('assets/images/find-us.gif') }}" alt=""
+                                        style="width: 200px;">
+                                </a>
+                                <p class="ms-3 text-yellow fw-bold text-start">
+                                    <b>
+                                        Please check our Face Book page for any updates, Promotions, Special tours & new
+                                        tours
+                                    </b>
+                                </p>
+                            </div>
                         </div>
                         <!-- End Video content -->
 
@@ -112,9 +124,9 @@
                 <div class="col-md-12">
                     <div class="mu-featured-tours-area">
                         <h2 class="text-yellow text-shadow mt-4">Our New Tours</h2>
-                        <p class="mu-title-content text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        {{-- <p class="mu-title-content text-yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Delectus, officia aut molestiae quod. Veritatis voluptas, possimus. Quae qui optio minus
-                            dolorem fugit dolore, cum at, harum omnis sint? Saepe, asperiores.</p>
+                            dolorem fugit dolore, cum at, harum omnis sint? Saepe, asperiores.</p> --}}
 
                         <!-- Start Featured Tours content -->
                         <div class="mu-featured-tours-content">
@@ -157,11 +169,21 @@
                 <div class="col-md-12">
                     <div class="mu-contact-area">
                         <h2 class="text-yellow text-shadow">Contact Us</h2>
-                        <p class="text-yellow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        {{-- <p class="text-yellow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum
-                            has been the industry's standard dummy text ever</p>
+                            has been the industry's standard dummy text ever</p> --}}
 
                         <!-- Start Contact Content -->
+                        <div class="row">
+                            <div class="col-lg-12 text-yellow">
+                                <h5 class="mb-0">Sanur Cycle Tours</h5>
+                                <p class="mb-0">Jalan Tirthanadi I No. 33, Sanur.</p>
+                                <p class="mb-0">Phone : +62 811 937 4445 (International)</p>
+                                <p class="mb-0">0811 937 4445 (within Bali)</p>
+                                <p class="mb-0">Email: info[at]sanurcycletours.com</p>
+                            </div>
+                        </div>
+
                         <div class="mu-contact-content">
                             <div class="row">
 
@@ -181,8 +203,9 @@
 
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" placeholder="Enter Email"
-                                                            id="email" name="email" required>
+                                                        <input type="email" class="form-control"
+                                                            placeholder="Enter Email" id="email" name="email"
+                                                            required>
                                                     </div>
                                                 </div>
                                             </div>

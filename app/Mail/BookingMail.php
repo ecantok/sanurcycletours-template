@@ -30,7 +30,7 @@ class BookingMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address('info@sanurcycletours.com', 'Sanur Cycle Tours'),
+            from: new Address('booking@draft.sanurcycletours.com', 'Sanur Cycle Tours'),
             replyTo: [
                 new Address($this->booking->email, $this->booking->name),
             ],

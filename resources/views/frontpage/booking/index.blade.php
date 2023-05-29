@@ -354,7 +354,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mb-3">
-                                        <label for="billing-poscode" class="form-label text-yellow">Pos Code<span
+                                        <label for="billing-poscode" class="form-label text-yellow">Postal Code<span
                                                 class="text-danger">*</span></label>
                                         <input type="number" class="form-control bg-maroon text-yellow"
                                             id="billing-poscode" name="billing_poscode">
@@ -378,7 +378,7 @@
                             <h6 class="text-danger">NOTE</h6>
                             <ul class="text-danger ms-5">
                                 <li>Please make sure your credit card is using 3D Secure</li>
-                                <li>If you are here in Bali, please make sure your roaming of your mobile phone is off to
+                                <li>If you are here in Bali, please make sure your roaming of your mobile phone is on to
                                     obtain the verification code</li>
                             </ul>
 

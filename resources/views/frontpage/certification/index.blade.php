@@ -18,6 +18,14 @@
                                 </a>
                             </div>
 
+                            <div class="col-lg-3 mb-3 bg-maroon-1 p-3">
+                                <h6 class="text-yellow text-center">Kitas, Kitap & KTP</h6>
+                                <p class="text-center text-yellow">
+                                    The holders of the above visas receive a discount on all our tours. Please email us
+                                    regarding your tour and we will get back to you with the discount on each tour.
+                                </p>
+                            </div>
+
                             <div class="col-lg-2 col-md-4 col-sm-2 mb-3">
                                 <div id="TA_linkingWidgetRedesign453" class="TA_linkingWidgetRedesign" bis_skin_checked="1">
                                     <div id="CDSWIDLNKR" class=" cx_brand_refresh1 border" bis_skin_checked="1">
