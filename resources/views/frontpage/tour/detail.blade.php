@@ -30,6 +30,13 @@
                         {!! $tour->content !!}
                     </div>
 
+                    <p class="text-yellow mt-5">
+                        We use & recommend <a href="https://living.arenabali.com/" target="_blank"
+                            class="text-yellow text-bold">Arena
+                            Living</a> as our
+                        preferred accommodation in Sanur.
+                    </p>
+
                     <a href="{{ route('frontpage.booking') }}" class="mu-book-now-btn text-yellow w-100 text-center mb-5">
                         <b>Book Now</b>
                     </a>
@@ -54,7 +61,7 @@
                 perPage: 1,
                 autoplay: true,
                 pauseOnHover: false,
-                interval: 3000,
+                interval: 5000,
             }).mount();
         });
     </script>
