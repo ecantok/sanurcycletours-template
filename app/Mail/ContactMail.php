@@ -30,7 +30,7 @@ class ContactMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address('contact@draft.sanurcycletours.com', 'Sanur Cycle Tours'),
+            from: new Address('contact@sanurcycletours.com', 'Sanur Cycle Tours'),
             replyTo: [
                 new Address($this->contact->email, $this->contact->name),
             ],
