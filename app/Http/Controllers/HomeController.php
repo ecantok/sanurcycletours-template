@@ -6,6 +6,7 @@ use App\Models\Tour;
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Anhskohbo\NoCaptcha\Facades\NoCaptcha;
 
 class HomeController extends Controller
 {
@@ -21,6 +22,7 @@ class HomeController extends Controller
     public function send_message(Request $request)
     {
         $request->validate([
+            'g-recaptcha-response' => 'required|captcha',
             'name' => 'required',
             'email' => 'required|email',
             'subject' => 'required',

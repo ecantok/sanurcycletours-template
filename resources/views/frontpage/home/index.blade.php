@@ -190,6 +190,7 @@
                                 <div class="col-md-12">
                                     <div class="mu-contact-form-area">
                                         <div id="form-messages"></div>
+
                                         <form method="post" action="{{ route('frontpage.send.message') }}"
                                             class="mu-contact-form">
                                             @csrf
@@ -215,10 +216,11 @@
                                                     id="subject" name="subject" required>
                                             </div>
 
-                                            <div class="form-group">
+                                            <div class="form-group mb-3">
                                                 <textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
                                             </div>
-                                            <button type="submit" class="mu-send-msg-btn bg-maroon-1"><span>Send
+                                            {!! NoCaptcha::display() !!}
+                                            <button type="submit" class="mu-send-msg-btn bg-maroon-1 mt-2"><span>Send
                                                     Message</span></button>
                                         </form>
                                     </div>
@@ -245,6 +247,10 @@
 
     <!-- End Google Map -->
 @endsection
+
+@push('css')
+    {!! NoCaptcha::renderJs() !!}
+@endpush
 
 @push('js')
     <script>
