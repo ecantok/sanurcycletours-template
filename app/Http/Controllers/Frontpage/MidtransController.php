@@ -67,6 +67,8 @@ class MidtransController extends Controller
 
         $transaction = $request->transaction_status;
         $order_id = $request->order_id;
+        $type = $request->payment_type;
+        $fraud = $request->fraud_status;
 
         $billing  = Billing::where('order_id', $order_id)->first();
         $booking = Booking::where('order_id', $order_id)->first();
@@ -74,9 +76,32 @@ class MidtransController extends Controller
         $hashed = hash('sha512', $order_id . $request->status_code . $request->gross_amount . $server_key);
 
         if ($hashed == $request->signature_key) {
-            $this->notification_update($booking, $billing, $request);
-
-            $this->send_email($transaction, $booking);
+            if ($transaction == 'capture') {
+                if ($type == 'credit_card') {
+                    if ($fraud == 'challenge') {
+                        $this->notification_update($booking, $billing, $request);
+                        $this->send_email($transaction, $booking);
+                    } else {
+                        $this->notification_update($booking, $billing, $request);
+                        $this->send_email($transaction, $booking);
+                    }
+                }
+            } else if ($transaction == 'settlement') {
+                $this->notification_update($booking, $billing, $request);
+                $this->send_email($transaction, $booking);
+            } else if ($transaction == 'pending') {
+                $this->notification_update($booking, $billing, $request);
+                $this->send_email($transaction, $booking);
+            } else if ($transaction == 'deny') {
+                $this->notification_update($booking, $billing, $request);
+                $this->send_email($transaction, $booking);
+            } else if ($transaction == 'expire') {
+                $this->notification_update($booking, $billing, $request);
+                $this->send_email($transaction, $booking);
+            } else if ($transaction == 'cancel') {
+                $this->notification_update($booking, $billing, $request);
+                $this->send_email($transaction, $booking);
+            }
 
             return response()->json([
                 'response' => $request->all(),
@@ -106,7 +131,7 @@ class MidtransController extends Controller
 
     protected function send_email($transaction, $booking)
     {
-        if ($transaction == 'settlement') {
+        if ($transaction == 'settlement' || $transaction == 'capture') {
             Mail::to('info@sanurcycletours.com', 'Info Sanur Cycle Tours')
                 ->cc('wayan@sanurcycletours.com', 'Sanur Cycle Tours')
                 ->bcc('agus@baligatra.com', 'Backup')

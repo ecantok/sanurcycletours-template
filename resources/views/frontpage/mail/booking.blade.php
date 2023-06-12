@@ -81,7 +81,8 @@
             <td valign="top" style="padding:10px 10px 5px 20px; color:#444">Status Payment</td>
             <td valign="top">:</td>
             <td style="padding:10px 10px 5px 20px; color:#444">
-                {{ $booking?->payment_status == 'settlement' ? 'Success' : 'Pending' }}</td>
+                {{ $booking?->payment_status == 'settlement' || $booking?->payment_status == 'capture' ? 'Success' : 'Pending' }}
+            </td>
         </tr>
     </table>
     <br><br><br>
