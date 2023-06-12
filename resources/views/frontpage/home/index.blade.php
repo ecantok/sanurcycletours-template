@@ -197,14 +197,14 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="Name"
-                                                            id="name" name="name" required>
+                                                        <input type="text" class="form-control text-yellow"
+                                                            placeholder="Name" id="name" name="name" required>
                                                     </div>
                                                 </div>
 
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control"
+                                                        <input type="email" class="form-control text-yellow"
                                                             placeholder="Enter Email" id="email" name="email"
                                                             required>
                                                     </div>
@@ -212,12 +212,12 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Your Subject"
-                                                    id="subject" name="subject" required>
+                                                <input type="text" class="form-control text-yellow"
+                                                    placeholder="Your Subject" id="subject" name="subject" required>
                                             </div>
 
                                             <div class="form-group mb-3">
-                                                <textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
+                                                <textarea class="form-control text-yellow" placeholder="Message" id="message" name="message" required></textarea>
                                             </div>
                                             {!! NoCaptcha::display() !!}
                                             <button type="submit" class="mu-send-msg-btn bg-maroon-1 mt-2"><span>Send
